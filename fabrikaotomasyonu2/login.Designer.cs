@@ -32,8 +32,8 @@
             this.bunifuTextbox1 = new Bunifu.Framework.UI.BunifuTextbox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             this.bunifuTextbox2 = new Bunifu.Framework.UI.BunifuTextbox();
             this.bunifuTileButton1 = new Bunifu.Framework.UI.BunifuTileButton();
             this.bunifuTileButton2 = new Bunifu.Framework.UI.BunifuTileButton();
@@ -53,6 +53,7 @@
             this.bunifuTextbox1.Size = new System.Drawing.Size(250, 42);
             this.bunifuTextbox1.TabIndex = 0;
             this.bunifuTextbox1.text = "Kullanıcı Adı";
+            this.bunifuTextbox1.OnTextChange += new System.EventHandler(this.bunifuTextbox1_OnTextChange);
             // 
             // pictureBox1
             // 
@@ -74,16 +75,6 @@
             this.panel1.Size = new System.Drawing.Size(314, 35);
             this.panel1.TabIndex = 7;
             // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Roboto Medium", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label1.Location = new System.Drawing.Point(288, 9);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(23, 23);
-            this.label1.TabIndex = 8;
-            this.label1.Text = "X";
-            // 
             // label2
             // 
             this.label2.AutoSize = true;
@@ -93,6 +84,17 @@
             this.label2.Size = new System.Drawing.Size(20, 23);
             this.label2.TabIndex = 8;
             this.label2.Text = "_";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Roboto Medium", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label1.Location = new System.Drawing.Point(288, 9);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(23, 23);
+            this.label1.TabIndex = 8;
+            this.label1.Text = "X";
+            this.label1.Click += new System.EventHandler(this.label1_click);
             // 
             // bunifuTextbox2
             // 
@@ -109,7 +111,7 @@
             // 
             // bunifuTileButton1
             // 
-            this.bunifuTileButton1.BackColor = System.Drawing.Color.ForestGreen;
+            this.bunifuTileButton1.BackColor = System.Drawing.Color.SeaGreen;
             this.bunifuTileButton1.color = System.Drawing.Color.SeaGreen;
             this.bunifuTileButton1.colorActive = System.Drawing.Color.MediumSeaGreen;
             this.bunifuTileButton1.Cursor = System.Windows.Forms.Cursors.Hand;
@@ -125,6 +127,7 @@
             this.bunifuTileButton1.Name = "bunifuTileButton1";
             this.bunifuTileButton1.Size = new System.Drawing.Size(110, 106);
             this.bunifuTileButton1.TabIndex = 9;
+            this.bunifuTileButton1.Click += new System.EventHandler(this.bunifuTileButton1_Click);
             // 
             // bunifuTileButton2
             // 
@@ -145,7 +148,7 @@
             this.bunifuTileButton2.Size = new System.Drawing.Size(110, 106);
             this.bunifuTileButton2.TabIndex = 10;
             // 
-            // Form1
+            // login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -158,7 +161,7 @@
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.bunifuTextbox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "Form1";
+            this.Name = "login";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

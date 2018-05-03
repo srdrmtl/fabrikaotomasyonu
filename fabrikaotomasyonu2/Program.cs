@@ -16,7 +16,7 @@ namespace fabrikaotomasyonu2
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new gider());
+            Application.Run(new personel());
         }
     }
 }

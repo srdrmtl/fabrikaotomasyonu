@@ -1,6 +1,6 @@
 ﻿namespace DarkDemo
 {
-    partial class Form1
+    partial class yoneticimain
     {
         /// <summary>
         /// Required designer variable.
@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(yoneticimain));
             this.panel1 = new System.Windows.Forms.Panel();
             this.button12 = new System.Windows.Forms.Button();
             this.button11 = new System.Windows.Forms.Button();
@@ -37,8 +37,8 @@
             this.button9 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btn_personel = new System.Windows.Forms.Button();
+            this.btn_anasayfa = new System.Windows.Forms.Button();
             this.panel3 = new System.Windows.Forms.Panel();
             this.bunifuCustomLabel1 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.label4 = new System.Windows.Forms.Label();
@@ -75,7 +75,7 @@
             this.bunifuCustomLabel2 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.label5 = new System.Windows.Forms.Label();
-            this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
+            this.maintable = new System.Windows.Forms.TableLayoutPanel();
             this.label20 = new System.Windows.Forms.Label();
             this.label25 = new System.Windows.Forms.Label();
             this.label24 = new System.Windows.Forms.Label();
@@ -97,9 +97,9 @@
             this.bunifuCustomLabel12 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.bunifuCustomLabel13 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.bunifuCustomLabel14 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.bunifuMetroTextbox1 = new Bunifu.Framework.UI.BunifuMetroTextbox();
-            this.bunifuMetroTextbox2 = new Bunifu.Framework.UI.BunifuMetroTextbox();
-            this.bunifuMetroTextbox3 = new Bunifu.Framework.UI.BunifuMetroTextbox();
+            this.textbox_gelir = new Bunifu.Framework.UI.BunifuMetroTextbox();
+            this.textbox_gider = new Bunifu.Framework.UI.BunifuMetroTextbox();
+            this.textbox_net = new Bunifu.Framework.UI.BunifuMetroTextbox();
             this.button13 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -107,7 +107,7 @@
             this.panel4.SuspendLayout();
             this.tableLayoutPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            this.tableLayoutPanel2.SuspendLayout();
+            this.maintable.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
@@ -119,8 +119,8 @@
             this.panel1.Controls.Add(this.button9);
             this.panel1.Controls.Add(this.button4);
             this.panel1.Controls.Add(this.button3);
-            this.panel1.Controls.Add(this.button2);
-            this.panel1.Controls.Add(this.button1);
+            this.panel1.Controls.Add(this.btn_personel);
+            this.panel1.Controls.Add(this.btn_anasayfa);
             this.panel1.Controls.Add(this.panel3);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel1.Location = new System.Drawing.Point(0, 0);
@@ -133,7 +133,7 @@
             this.button12.FlatAppearance.BorderSize = 0;
             this.button12.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button12.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button12.ForeColor = System.Drawing.Color.White;
+            this.button12.ForeColor = System.Drawing.Color.Black;
             this.button12.Image = ((System.Drawing.Image)(resources.GetObject("button12.Image")));
             this.button12.Location = new System.Drawing.Point(2, 655);
             this.button12.Name = "button12";
@@ -149,7 +149,7 @@
             this.button11.FlatAppearance.BorderSize = 0;
             this.button11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button11.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button11.ForeColor = System.Drawing.Color.White;
+            this.button11.ForeColor = System.Drawing.Color.Black;
             this.button11.Image = ((System.Drawing.Image)(resources.GetObject("button11.Image")));
             this.button11.Location = new System.Drawing.Point(2, 576);
             this.button11.Name = "button11";
@@ -165,7 +165,7 @@
             this.button10.FlatAppearance.BorderSize = 0;
             this.button10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button10.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button10.ForeColor = System.Drawing.Color.White;
+            this.button10.ForeColor = System.Drawing.Color.Black;
             this.button10.Image = ((System.Drawing.Image)(resources.GetObject("button10.Image")));
             this.button10.Location = new System.Drawing.Point(0, 497);
             this.button10.Name = "button10";
@@ -181,7 +181,7 @@
             this.button9.FlatAppearance.BorderSize = 0;
             this.button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button9.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button9.ForeColor = System.Drawing.Color.White;
+            this.button9.ForeColor = System.Drawing.Color.Black;
             this.button9.Image = ((System.Drawing.Image)(resources.GetObject("button9.Image")));
             this.button9.Location = new System.Drawing.Point(2, 416);
             this.button9.Name = "button9";
@@ -197,7 +197,7 @@
             this.button4.FlatAppearance.BorderSize = 0;
             this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button4.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.ForeColor = System.Drawing.Color.White;
+            this.button4.ForeColor = System.Drawing.Color.Black;
             this.button4.Image = ((System.Drawing.Image)(resources.GetObject("button4.Image")));
             this.button4.Location = new System.Drawing.Point(0, 335);
             this.button4.Name = "button4";
@@ -214,7 +214,7 @@
             this.button3.FlatAppearance.BorderSize = 0;
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button3.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.ForeColor = System.Drawing.Color.White;
+            this.button3.ForeColor = System.Drawing.Color.Black;
             this.button3.Image = ((System.Drawing.Image)(resources.GetObject("button3.Image")));
             this.button3.Location = new System.Drawing.Point(2, 254);
             this.button3.Name = "button3";
@@ -226,48 +226,49 @@
             this.button3.UseVisualStyleBackColor = true;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
-            // button2
+            // btn_personel
             // 
-            this.button2.FlatAppearance.BorderSize = 0;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Image = ((System.Drawing.Image)(resources.GetObject("button2.Image")));
-            this.button2.Location = new System.Drawing.Point(2, 174);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(163, 73);
-            this.button2.TabIndex = 1;
-            this.button2.Text = "Personel";
-            this.button2.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.button2.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.button2.UseVisualStyleBackColor = true;
+            this.btn_personel.FlatAppearance.BorderSize = 0;
+            this.btn_personel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_personel.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_personel.ForeColor = System.Drawing.Color.Black;
+            this.btn_personel.Image = ((System.Drawing.Image)(resources.GetObject("btn_personel.Image")));
+            this.btn_personel.Location = new System.Drawing.Point(-1, 173);
+            this.btn_personel.Name = "btn_personel";
+            this.btn_personel.Size = new System.Drawing.Size(166, 74);
+            this.btn_personel.TabIndex = 1;
+            this.btn_personel.Text = "Personel";
+            this.btn_personel.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btn_personel.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.btn_personel.UseVisualStyleBackColor = true;
             // 
-            // button1
+            // btn_anasayfa
             // 
-            this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
-            this.button1.Location = new System.Drawing.Point(0, 108);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(163, 75);
-            this.button1.TabIndex = 1;
-            this.button1.Text = "Anasayfa";
-            this.button1.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.button1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.button1.UseVisualStyleBackColor = true;
+            this.btn_anasayfa.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+            this.btn_anasayfa.FlatAppearance.BorderSize = 0;
+            this.btn_anasayfa.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_anasayfa.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_anasayfa.ForeColor = System.Drawing.Color.White;
+            this.btn_anasayfa.Image = ((System.Drawing.Image)(resources.GetObject("btn_anasayfa.Image")));
+            this.btn_anasayfa.Location = new System.Drawing.Point(0, 108);
+            this.btn_anasayfa.Name = "btn_anasayfa";
+            this.btn_anasayfa.Size = new System.Drawing.Size(163, 75);
+            this.btn_anasayfa.TabIndex = 1;
+            this.btn_anasayfa.Text = "Anasayfa";
+            this.btn_anasayfa.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btn_anasayfa.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.btn_anasayfa.UseVisualStyleBackColor = false;
             // 
             // panel3
             // 
-            this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
+            this.panel3.BackColor = System.Drawing.Color.DarkBlue;
             this.panel3.Controls.Add(this.bunifuCustomLabel1);
             this.panel3.Controls.Add(this.label4);
             this.panel3.Controls.Add(this.label2);
             this.panel3.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel3.Location = new System.Drawing.Point(0, 0);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(164, 102);
+            this.panel3.Size = new System.Drawing.Size(164, 110);
             this.panel3.TabIndex = 0;
             // 
             // bunifuCustomLabel1
@@ -304,7 +305,7 @@
             // 
             // panel2
             // 
-            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(40)))), ((int)(((byte)(47)))));
+            this.panel2.BackColor = System.Drawing.Color.Gray;
             this.panel2.Controls.Add(this.bunifuThinButton22);
             this.panel2.Controls.Add(this.bunifuTileButton5);
             this.panel2.Controls.Add(this.bunifuTileButton4);
@@ -325,7 +326,7 @@
             this.bunifuThinButton22.ActiveFillColor = System.Drawing.Color.SeaGreen;
             this.bunifuThinButton22.ActiveForecolor = System.Drawing.Color.White;
             this.bunifuThinButton22.ActiveLineColor = System.Drawing.Color.SeaGreen;
-            this.bunifuThinButton22.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(40)))), ((int)(((byte)(47)))));
+            this.bunifuThinButton22.BackColor = System.Drawing.Color.Gray;
             this.bunifuThinButton22.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuThinButton22.BackgroundImage")));
             this.bunifuThinButton22.ButtonText = "Yeni Ekle";
             this.bunifuThinButton22.Cursor = System.Windows.Forms.Cursors.Hand;
@@ -336,10 +337,10 @@
             this.bunifuThinButton22.IdleFillColor = System.Drawing.Color.White;
             this.bunifuThinButton22.IdleForecolor = System.Drawing.Color.SeaGreen;
             this.bunifuThinButton22.IdleLineColor = System.Drawing.Color.SeaGreen;
-            this.bunifuThinButton22.Location = new System.Drawing.Point(476, 13);
+            this.bunifuThinButton22.Location = new System.Drawing.Point(476, 9);
             this.bunifuThinButton22.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.bunifuThinButton22.Name = "bunifuThinButton22";
-            this.bunifuThinButton22.Size = new System.Drawing.Size(73, 33);
+            this.bunifuThinButton22.Size = new System.Drawing.Size(61, 39);
             this.bunifuThinButton22.TabIndex = 10;
             this.bunifuThinButton22.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
@@ -512,7 +513,7 @@
             // 
             // panel4
             // 
-            this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(40)))), ((int)(((byte)(47)))));
+            this.panel4.BackColor = System.Drawing.Color.Pink;
             this.panel4.Controls.Add(this.bunifuThinButton21);
             this.panel4.Controls.Add(this.richTextBox1);
             this.panel4.Controls.Add(this.bunifuMaterialTextbox1);
@@ -533,12 +534,12 @@
             this.bunifuThinButton21.ActiveFillColor = System.Drawing.Color.SeaGreen;
             this.bunifuThinButton21.ActiveForecolor = System.Drawing.Color.White;
             this.bunifuThinButton21.ActiveLineColor = System.Drawing.Color.SeaGreen;
-            this.bunifuThinButton21.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(40)))), ((int)(((byte)(47)))));
+            this.bunifuThinButton21.BackColor = System.Drawing.Color.Pink;
             this.bunifuThinButton21.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuThinButton21.BackgroundImage")));
             this.bunifuThinButton21.ButtonText = "Not Ekle";
             this.bunifuThinButton21.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.bunifuThinButton21.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuThinButton21.ForeColor = System.Drawing.Color.SeaGreen;
+            this.bunifuThinButton21.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.bunifuThinButton21.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
             this.bunifuThinButton21.IdleBorderThickness = 1;
             this.bunifuThinButton21.IdleCornerRadius = 20;
             this.bunifuThinButton21.IdleFillColor = System.Drawing.Color.Transparent;
@@ -553,7 +554,7 @@
             // 
             // richTextBox1
             // 
-            this.richTextBox1.BackColor = System.Drawing.Color.DimGray;
+            this.richTextBox1.BackColor = System.Drawing.Color.Pink;
             this.richTextBox1.Location = new System.Drawing.Point(634, 85);
             this.richTextBox1.Name = "richTextBox1";
             this.richTextBox1.Size = new System.Drawing.Size(180, 96);
@@ -565,7 +566,7 @@
             // 
             this.bunifuMaterialTextbox1.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.bunifuMaterialTextbox1.Font = new System.Drawing.Font("Century Gothic", 9.75F);
-            this.bunifuMaterialTextbox1.ForeColor = System.Drawing.Color.Silver;
+            this.bunifuMaterialTextbox1.ForeColor = System.Drawing.Color.Black;
             this.bunifuMaterialTextbox1.HintForeColor = System.Drawing.Color.Empty;
             this.bunifuMaterialTextbox1.HintText = "";
             this.bunifuMaterialTextbox1.isPassword = false;
@@ -731,53 +732,54 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.BackColor = System.Drawing.Color.White;
+            this.label5.BackColor = System.Drawing.Color.Pink;
+            this.label5.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label5.Location = new System.Drawing.Point(394, 15);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(58, 21);
+            this.label5.Size = new System.Drawing.Size(73, 25);
             this.label5.TabIndex = 2;
             this.label5.Text = "Notlar";
             // 
-            // tableLayoutPanel2
+            // maintable
             // 
-            this.tableLayoutPanel2.CellBorderStyle = System.Windows.Forms.TableLayoutPanelCellBorderStyle.Single;
-            this.tableLayoutPanel2.ColumnCount = 6;
-            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 16.66666F));
-            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
-            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
-            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
-            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
-            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 16.66666F));
-            this.tableLayoutPanel2.Controls.Add(this.label20, 0, 4);
-            this.tableLayoutPanel2.Controls.Add(this.label25, 0, 4);
-            this.tableLayoutPanel2.Controls.Add(this.label24, 0, 4);
-            this.tableLayoutPanel2.Controls.Add(this.label23, 0, 4);
-            this.tableLayoutPanel2.Controls.Add(this.label22, 0, 4);
-            this.tableLayoutPanel2.Controls.Add(this.label21, 0, 4);
-            this.tableLayoutPanel2.Controls.Add(this.label18, 5, 1);
-            this.tableLayoutPanel2.Controls.Add(this.label17, 4, 1);
-            this.tableLayoutPanel2.Controls.Add(this.label16, 3, 1);
-            this.tableLayoutPanel2.Controls.Add(this.label15, 2, 1);
-            this.tableLayoutPanel2.Controls.Add(this.label14, 1, 1);
-            this.tableLayoutPanel2.Controls.Add(this.label13, 0, 1);
-            this.tableLayoutPanel2.Controls.Add(this.label12, 5, 0);
-            this.tableLayoutPanel2.Controls.Add(this.label11, 4, 0);
-            this.tableLayoutPanel2.Controls.Add(this.label10, 3, 0);
-            this.tableLayoutPanel2.Controls.Add(this.label9, 2, 0);
-            this.tableLayoutPanel2.Controls.Add(this.label8, 1, 0);
-            this.tableLayoutPanel2.Controls.Add(this.label7, 0, 0);
-            this.tableLayoutPanel2.Location = new System.Drawing.Point(196, 83);
-            this.tableLayoutPanel2.Name = "tableLayoutPanel2";
-            this.tableLayoutPanel2.RowCount = 5;
-            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 30F));
-            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 30F));
-            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 30F));
-            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 30F));
-            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel2.Size = new System.Drawing.Size(800, 142);
-            this.tableLayoutPanel2.TabIndex = 7;
-            this.tableLayoutPanel2.Paint += new System.Windows.Forms.PaintEventHandler(this.tableLayoutPanel2_Paint);
+            this.maintable.CellBorderStyle = System.Windows.Forms.TableLayoutPanelCellBorderStyle.Single;
+            this.maintable.ColumnCount = 6;
+            this.maintable.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 16.66666F));
+            this.maintable.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
+            this.maintable.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
+            this.maintable.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
+            this.maintable.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
+            this.maintable.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 16.66666F));
+            this.maintable.Controls.Add(this.label20, 0, 4);
+            this.maintable.Controls.Add(this.label25, 0, 4);
+            this.maintable.Controls.Add(this.label24, 0, 4);
+            this.maintable.Controls.Add(this.label23, 0, 4);
+            this.maintable.Controls.Add(this.label22, 0, 4);
+            this.maintable.Controls.Add(this.label21, 0, 4);
+            this.maintable.Controls.Add(this.label18, 5, 1);
+            this.maintable.Controls.Add(this.label17, 4, 1);
+            this.maintable.Controls.Add(this.label16, 3, 1);
+            this.maintable.Controls.Add(this.label15, 2, 1);
+            this.maintable.Controls.Add(this.label14, 1, 1);
+            this.maintable.Controls.Add(this.label13, 0, 1);
+            this.maintable.Controls.Add(this.label12, 5, 0);
+            this.maintable.Controls.Add(this.label11, 4, 0);
+            this.maintable.Controls.Add(this.label10, 3, 0);
+            this.maintable.Controls.Add(this.label9, 2, 0);
+            this.maintable.Controls.Add(this.label8, 1, 0);
+            this.maintable.Controls.Add(this.label7, 0, 0);
+            this.maintable.Location = new System.Drawing.Point(196, 83);
+            this.maintable.Name = "maintable";
+            this.maintable.RowCount = 5;
+            this.maintable.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.maintable.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 30F));
+            this.maintable.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 30F));
+            this.maintable.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 30F));
+            this.maintable.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 30F));
+            this.maintable.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.maintable.Size = new System.Drawing.Size(800, 142);
+            this.maintable.TabIndex = 7;
+            this.maintable.Paint += new System.Windows.Forms.PaintEventHandler(this.tableLayoutPanel2_Paint);
             // 
             // label20
             // 
@@ -849,7 +851,7 @@
             // 
             this.label18.AutoSize = true;
             this.label18.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label18.ForeColor = System.Drawing.Color.White;
+            this.label18.ForeColor = System.Drawing.Color.SaddleBrown;
             this.label18.Location = new System.Drawing.Point(669, 22);
             this.label18.Name = "label18";
             this.label18.Size = new System.Drawing.Size(96, 17);
@@ -860,7 +862,7 @@
             // 
             this.label17.AutoSize = true;
             this.label17.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label17.ForeColor = System.Drawing.Color.White;
+            this.label17.ForeColor = System.Drawing.Color.SaddleBrown;
             this.label17.Location = new System.Drawing.Point(536, 22);
             this.label17.Name = "label17";
             this.label17.Size = new System.Drawing.Size(41, 17);
@@ -871,7 +873,7 @@
             // 
             this.label16.AutoSize = true;
             this.label16.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label16.ForeColor = System.Drawing.Color.White;
+            this.label16.ForeColor = System.Drawing.Color.SaddleBrown;
             this.label16.Location = new System.Drawing.Point(403, 22);
             this.label16.Name = "label16";
             this.label16.Size = new System.Drawing.Size(65, 17);
@@ -882,7 +884,7 @@
             // 
             this.label15.AutoSize = true;
             this.label15.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label15.ForeColor = System.Drawing.Color.White;
+            this.label15.ForeColor = System.Drawing.Color.SaddleBrown;
             this.label15.Location = new System.Drawing.Point(270, 22);
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(46, 17);
@@ -893,7 +895,7 @@
             // 
             this.label14.AutoSize = true;
             this.label14.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label14.ForeColor = System.Drawing.Color.White;
+            this.label14.ForeColor = System.Drawing.Color.SaddleBrown;
             this.label14.Location = new System.Drawing.Point(137, 22);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(43, 17);
@@ -904,7 +906,7 @@
             // 
             this.label13.AutoSize = true;
             this.label13.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label13.ForeColor = System.Drawing.Color.White;
+            this.label13.ForeColor = System.Drawing.Color.SaddleBrown;
             this.label13.Location = new System.Drawing.Point(4, 22);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(70, 17);
@@ -974,6 +976,7 @@
             // bunifuCustomLabel12
             // 
             this.bunifuCustomLabel12.AutoSize = true;
+            this.bunifuCustomLabel12.ForeColor = System.Drawing.Color.Black;
             this.bunifuCustomLabel12.Location = new System.Drawing.Point(192, 241);
             this.bunifuCustomLabel12.Name = "bunifuCustomLabel12";
             this.bunifuCustomLabel12.Size = new System.Drawing.Size(115, 21);
@@ -983,6 +986,7 @@
             // bunifuCustomLabel13
             // 
             this.bunifuCustomLabel13.AutoSize = true;
+            this.bunifuCustomLabel13.ForeColor = System.Drawing.Color.Black;
             this.bunifuCustomLabel13.Location = new System.Drawing.Point(436, 241);
             this.bunifuCustomLabel13.Name = "bunifuCustomLabel13";
             this.bunifuCustomLabel13.Size = new System.Drawing.Size(123, 21);
@@ -992,68 +996,69 @@
             // bunifuCustomLabel14
             // 
             this.bunifuCustomLabel14.AutoSize = true;
+            this.bunifuCustomLabel14.ForeColor = System.Drawing.Color.Black;
             this.bunifuCustomLabel14.Location = new System.Drawing.Point(722, 241);
             this.bunifuCustomLabel14.Name = "bunifuCustomLabel14";
             this.bunifuCustomLabel14.Size = new System.Drawing.Size(47, 21);
             this.bunifuCustomLabel14.TabIndex = 10;
             this.bunifuCustomLabel14.Text = "Net :";
             // 
-            // bunifuMetroTextbox1
+            // textbox_gelir
             // 
-            this.bunifuMetroTextbox1.BackColor = System.Drawing.Color.ForestGreen;
-            this.bunifuMetroTextbox1.BorderColorFocused = System.Drawing.Color.Blue;
-            this.bunifuMetroTextbox1.BorderColorIdle = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.bunifuMetroTextbox1.BorderColorMouseHover = System.Drawing.Color.Blue;
-            this.bunifuMetroTextbox1.BorderThickness = 1;
-            this.bunifuMetroTextbox1.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.bunifuMetroTextbox1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.bunifuMetroTextbox1.ForeColor = System.Drawing.Color.Black;
-            this.bunifuMetroTextbox1.isPassword = false;
-            this.bunifuMetroTextbox1.Location = new System.Drawing.Point(307, 231);
-            this.bunifuMetroTextbox1.Margin = new System.Windows.Forms.Padding(7);
-            this.bunifuMetroTextbox1.Name = "bunifuMetroTextbox1";
-            this.bunifuMetroTextbox1.Size = new System.Drawing.Size(103, 49);
-            this.bunifuMetroTextbox1.TabIndex = 11;
-            this.bunifuMetroTextbox1.Text = "550 TL";
-            this.bunifuMetroTextbox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textbox_gelir.BackColor = System.Drawing.Color.ForestGreen;
+            this.textbox_gelir.BorderColorFocused = System.Drawing.Color.Blue;
+            this.textbox_gelir.BorderColorIdle = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.textbox_gelir.BorderColorMouseHover = System.Drawing.Color.Blue;
+            this.textbox_gelir.BorderThickness = 1;
+            this.textbox_gelir.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.textbox_gelir.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.textbox_gelir.ForeColor = System.Drawing.Color.Black;
+            this.textbox_gelir.isPassword = false;
+            this.textbox_gelir.Location = new System.Drawing.Point(307, 231);
+            this.textbox_gelir.Margin = new System.Windows.Forms.Padding(7);
+            this.textbox_gelir.Name = "textbox_gelir";
+            this.textbox_gelir.Size = new System.Drawing.Size(103, 49);
+            this.textbox_gelir.TabIndex = 11;
+            this.textbox_gelir.Text = "0 TL";
+            this.textbox_gelir.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // bunifuMetroTextbox2
+            // textbox_gider
             // 
-            this.bunifuMetroTextbox2.BackColor = System.Drawing.Color.Crimson;
-            this.bunifuMetroTextbox2.BorderColorFocused = System.Drawing.Color.Blue;
-            this.bunifuMetroTextbox2.BorderColorIdle = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.bunifuMetroTextbox2.BorderColorMouseHover = System.Drawing.Color.Blue;
-            this.bunifuMetroTextbox2.BorderThickness = 1;
-            this.bunifuMetroTextbox2.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.bunifuMetroTextbox2.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.bunifuMetroTextbox2.ForeColor = System.Drawing.Color.Black;
-            this.bunifuMetroTextbox2.isPassword = false;
-            this.bunifuMetroTextbox2.Location = new System.Drawing.Point(561, 231);
-            this.bunifuMetroTextbox2.Margin = new System.Windows.Forms.Padding(7);
-            this.bunifuMetroTextbox2.Name = "bunifuMetroTextbox2";
-            this.bunifuMetroTextbox2.Size = new System.Drawing.Size(103, 49);
-            this.bunifuMetroTextbox2.TabIndex = 12;
-            this.bunifuMetroTextbox2.Text = "0 TL";
-            this.bunifuMetroTextbox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textbox_gider.BackColor = System.Drawing.Color.Crimson;
+            this.textbox_gider.BorderColorFocused = System.Drawing.Color.Blue;
+            this.textbox_gider.BorderColorIdle = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.textbox_gider.BorderColorMouseHover = System.Drawing.Color.Blue;
+            this.textbox_gider.BorderThickness = 1;
+            this.textbox_gider.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.textbox_gider.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.textbox_gider.ForeColor = System.Drawing.Color.Black;
+            this.textbox_gider.isPassword = false;
+            this.textbox_gider.Location = new System.Drawing.Point(561, 231);
+            this.textbox_gider.Margin = new System.Windows.Forms.Padding(7);
+            this.textbox_gider.Name = "textbox_gider";
+            this.textbox_gider.Size = new System.Drawing.Size(103, 49);
+            this.textbox_gider.TabIndex = 12;
+            this.textbox_gider.Text = "550 TL";
+            this.textbox_gider.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // bunifuMetroTextbox3
+            // textbox_net
             // 
-            this.bunifuMetroTextbox3.BackColor = System.Drawing.Color.DodgerBlue;
-            this.bunifuMetroTextbox3.BorderColorFocused = System.Drawing.Color.Blue;
-            this.bunifuMetroTextbox3.BorderColorIdle = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.bunifuMetroTextbox3.BorderColorMouseHover = System.Drawing.Color.Blue;
-            this.bunifuMetroTextbox3.BorderThickness = 1;
-            this.bunifuMetroTextbox3.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.bunifuMetroTextbox3.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.bunifuMetroTextbox3.ForeColor = System.Drawing.Color.Black;
-            this.bunifuMetroTextbox3.isPassword = false;
-            this.bunifuMetroTextbox3.Location = new System.Drawing.Point(774, 231);
-            this.bunifuMetroTextbox3.Margin = new System.Windows.Forms.Padding(7);
-            this.bunifuMetroTextbox3.Name = "bunifuMetroTextbox3";
-            this.bunifuMetroTextbox3.Size = new System.Drawing.Size(103, 49);
-            this.bunifuMetroTextbox3.TabIndex = 13;
-            this.bunifuMetroTextbox3.Text = "550 TL";
-            this.bunifuMetroTextbox3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textbox_net.BackColor = System.Drawing.Color.DodgerBlue;
+            this.textbox_net.BorderColorFocused = System.Drawing.Color.Blue;
+            this.textbox_net.BorderColorIdle = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.textbox_net.BorderColorMouseHover = System.Drawing.Color.Blue;
+            this.textbox_net.BorderThickness = 1;
+            this.textbox_net.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.textbox_net.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.textbox_net.ForeColor = System.Drawing.Color.Black;
+            this.textbox_net.isPassword = false;
+            this.textbox_net.Location = new System.Drawing.Point(774, 231);
+            this.textbox_net.Margin = new System.Windows.Forms.Padding(7);
+            this.textbox_net.Name = "textbox_net";
+            this.textbox_net.Size = new System.Drawing.Size(103, 49);
+            this.textbox_net.TabIndex = 13;
+            this.textbox_net.Text = "-550 TL";
+            this.textbox_net.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // button13
             // 
@@ -1067,19 +1072,19 @@
             this.button13.Text = "Dönem Seç";
             this.button13.UseVisualStyleBackColor = true;
             // 
-            // Form1
+            // yoneticimain
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.ClientSize = new System.Drawing.Size(1008, 729);
             this.Controls.Add(this.button13);
-            this.Controls.Add(this.bunifuMetroTextbox3);
-            this.Controls.Add(this.bunifuMetroTextbox2);
-            this.Controls.Add(this.bunifuMetroTextbox1);
+            this.Controls.Add(this.textbox_net);
+            this.Controls.Add(this.textbox_gider);
+            this.Controls.Add(this.textbox_gelir);
             this.Controls.Add(this.bunifuCustomLabel14);
             this.Controls.Add(this.bunifuCustomLabel13);
             this.Controls.Add(this.bunifuCustomLabel12);
-            this.Controls.Add(this.tableLayoutPanel2);
+            this.Controls.Add(this.maintable);
             this.Controls.Add(this.panel4);
             this.Controls.Add(this.button8);
             this.Controls.Add(this.button7);
@@ -1089,12 +1094,11 @@
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(62)))), ((int)(((byte)(120)))), ((int)(((byte)(138)))));
+            this.ForeColor = System.Drawing.Color.Black;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
-            this.MinimumSize = new System.Drawing.Size(1024, 766);
-            this.Name = "Form1";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Form1";
+            this.Name = "yoneticimain";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.WindowsDefaultBounds;
+            this.Text = "Yonetici";
             this.panel1.ResumeLayout(false);
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
@@ -1105,8 +1109,8 @@
             this.tableLayoutPanel1.ResumeLayout(false);
             this.tableLayoutPanel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            this.tableLayoutPanel2.ResumeLayout(false);
-            this.tableLayoutPanel2.PerformLayout();
+            this.maintable.ResumeLayout(false);
+            this.maintable.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1115,8 +1119,8 @@
         #endregion
 
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btn_personel;
+        private System.Windows.Forms.Button btn_anasayfa;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Panel panel2;
@@ -1153,7 +1157,7 @@
         private System.Windows.Forms.RichTextBox richTextBox1;
         private Bunifu.Framework.UI.BunifuMaterialTextbox bunifuMaterialTextbox1;
         private Bunifu.Framework.UI.BunifuThinButton2 bunifuThinButton21;
-        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel2;
+        private System.Windows.Forms.TableLayoutPanel maintable;
         private System.Windows.Forms.Label label20;
         private System.Windows.Forms.Label label25;
         private System.Windows.Forms.Label label24;
@@ -1175,9 +1179,9 @@
         private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel12;
         private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel13;
         private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel14;
-        private Bunifu.Framework.UI.BunifuMetroTextbox bunifuMetroTextbox1;
-        private Bunifu.Framework.UI.BunifuMetroTextbox bunifuMetroTextbox2;
-        private Bunifu.Framework.UI.BunifuMetroTextbox bunifuMetroTextbox3;
+        private Bunifu.Framework.UI.BunifuMetroTextbox textbox_gelir;
+        private Bunifu.Framework.UI.BunifuMetroTextbox textbox_gider;
+        private Bunifu.Framework.UI.BunifuMetroTextbox textbox_net;
         private System.Windows.Forms.Button button13;
         private Bunifu.Framework.UI.BunifuTileButton bunifuTileButton5;
         private Bunifu.Framework.UI.BunifuTileButton bunifuTileButton4;

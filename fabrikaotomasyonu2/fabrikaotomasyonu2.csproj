@@ -39,6 +39,7 @@
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Management" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -53,17 +54,92 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="alim-satim.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="alim-satim.Designer.cs">
+      <DependentUpon>alim-satim.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Database.cs" />
+    <Compile Include="depocu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="depocu.Designer.cs">
+      <DependentUpon>depocu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fabrikaDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>fabrikaDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="gelir-gider.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="gelir-gider.Designer.cs">
+      <DependentUpon>gelir-gider.cs</DependentUpon>
+    </Compile>
     <Compile Include="gider.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="gider.Designer.cs">
       <DependentUpon>gider.cs</DependentUpon>
     </Compile>
+    <Compile Include="giderprovider.cs" />
+    <Compile Include="kimyager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="kimyager.Designer.cs">
+      <DependentUpon>kimyager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="malzeme.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="malzeme.Designer.cs">
+      <DependentUpon>malzeme.cs</DependentUpon>
+    </Compile>
+    <Compile Include="musteri.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="musteri.Designer.cs">
+      <DependentUpon>musteri.cs</DependentUpon>
+    </Compile>
     <Compile Include="personel.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="personel.Designer.cs">
       <DependentUpon>personel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="siparis.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="siparis.Designer.cs">
+      <DependentUpon>siparis.cs</DependentUpon>
+    </Compile>
+    <Compile Include="tedarikçi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="tedarikçi.Designer.cs">
+      <DependentUpon>tedarikçi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="uretimmuduru.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="uretimmuduru.Designer.cs">
+      <DependentUpon>uretimmuduru.cs</DependentUpon>
+    </Compile>
+    <Compile Include="urun.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="urun.Designer.cs">
+      <DependentUpon>urun.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User.cs" />
+    <Compile Include="UserProvider.cs" />
+    <Compile Include="yonetici.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="yonetici.Designer.cs">
+      <DependentUpon>yonetici.cs</DependentUpon>
     </Compile>
     <Compile Include="yoneticimain.cs">
       <SubType>Form</SubType>
@@ -79,11 +155,44 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="alim-satim.resx">
+      <DependentUpon>alim-satim.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="depocu.resx">
+      <DependentUpon>depocu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="gelir-gider.resx">
+      <DependentUpon>gelir-gider.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="gider.resx">
       <DependentUpon>gider.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="kimyager.resx">
+      <DependentUpon>kimyager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="malzeme.resx">
+      <DependentUpon>malzeme.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="musteri.resx">
+      <DependentUpon>musteri.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="personel.resx">
       <DependentUpon>personel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="siparis.resx">
+      <DependentUpon>siparis.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="tedarikçi.resx">
+      <DependentUpon>tedarikçi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="uretimmuduru.resx">
+      <DependentUpon>uretimmuduru.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="urun.resx">
+      <DependentUpon>urun.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="yonetici.resx">
+      <DependentUpon>yonetici.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="yoneticimain.resx">
       <DependentUpon>yoneticimain.cs</DependentUpon>
@@ -100,6 +209,17 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <None Include="fabrikaDataSet1.xsc">
+      <DependentUpon>fabrikaDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="fabrikaDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>fabrikaDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="fabrikaDataSet1.xss">
+      <DependentUpon>fabrikaDataSet1.xsd</DependentUpon>
+    </None>
     <None Include="Properties\DataSources\DarkDemo.Form1.datasource" />
     <None Include="Properties\DataSources\fabrikaotomasyonu2.Properties.Resources.datasource" />
     <None Include="Properties\DataSources\fabrikaotomasyonu2.Properties.Settings.datasource" />

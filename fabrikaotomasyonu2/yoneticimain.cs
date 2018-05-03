@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace DarkDemo
 {
-    public partial class Form1 : Form
+    public partial class yoneticimain : Form
     {
-        public Form1()
+        public yoneticimain()
         {
             InitializeComponent();
         }
