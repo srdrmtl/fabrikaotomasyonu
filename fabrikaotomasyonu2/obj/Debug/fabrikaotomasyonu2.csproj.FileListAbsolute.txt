@@ -1,0 +1,14 @@
+c:\users\serdar\documents\visual studio 2017\Projects\fabrikaotomasyonu2\fabrikaotomasyonu2\bin\Debug\fabrikaotomasyonu2.exe.config
+c:\users\serdar\documents\visual studio 2017\Projects\fabrikaotomasyonu2\fabrikaotomasyonu2\bin\Debug\fabrikaotomasyonu2.exe
+c:\users\serdar\documents\visual studio 2017\Projects\fabrikaotomasyonu2\fabrikaotomasyonu2\bin\Debug\fabrikaotomasyonu2.pdb
+c:\users\serdar\documents\visual studio 2017\Projects\fabrikaotomasyonu2\fabrikaotomasyonu2\bin\Debug\Bunifu_UI_v1.5.3.dll
+c:\users\serdar\documents\visual studio 2017\Projects\fabrikaotomasyonu2\fabrikaotomasyonu2\obj\Debug\fabrikaotomasyonu2.csprojResolveAssemblyReference.cache
+c:\users\serdar\documents\visual studio 2017\Projects\fabrikaotomasyonu2\fabrikaotomasyonu2\obj\Debug\fabrikaotomasyonu2.Properties.Resources.resources
+c:\users\serdar\documents\visual studio 2017\Projects\fabrikaotomasyonu2\fabrikaotomasyonu2\obj\Debug\fabrikaotomasyonu2.csproj.GenerateResource.Cache
+c:\users\serdar\documents\visual studio 2017\Projects\fabrikaotomasyonu2\fabrikaotomasyonu2\obj\Debug\fabrikaotomasyonu2.exe
+c:\users\serdar\documents\visual studio 2017\Projects\fabrikaotomasyonu2\fabrikaotomasyonu2\obj\Debug\fabrikaotomasyonu2.pdb
+c:\users\serdar\documents\visual studio 2017\Projects\fabrikaotomasyonu2\fabrikaotomasyonu2\obj\Debug\fabrikaotomasyonu2.personel.resources
+c:\users\serdar\documents\visual studio 2017\Projects\fabrikaotomasyonu2\fabrikaotomasyonu2\obj\Debug\DarkDemo.Form1.resources
+c:\users\serdar\documents\visual studio 2017\Projects\fabrikaotomasyonu2\fabrikaotomasyonu2\obj\Debug\fabrikaotomasyonu2.login.resources
+C:\Users\serdar\documents\visual studio 2017\Projects\fabrikaotomasyonu2\fabrikaotomasyonu2\obj\Debug\fabrikaotomasyonu2.gider.resources
+C:\Users\serdar\documents\visual studio 2017\Projects\fabrikaotomasyonu2\fabrikaotomasyonu2\bin\Debug\WindowsFormsControlLibrary2.dll
