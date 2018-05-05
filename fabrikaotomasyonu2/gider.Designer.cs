@@ -31,13 +31,6 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(gider));
             this.panel1 = new System.Windows.Forms.Panel();
             this.btn_siparis = new System.Windows.Forms.Button();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.bunifuThinButton21 = new Bunifu.Framework.UI.BunifuThinButton2();
-            this.bunifuMaterialTextbox3 = new Bunifu.Framework.UI.BunifuMaterialTextbox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.bunifuDatepicker1 = new Bunifu.Framework.UI.BunifuDatepicker();
-            this.bunifuMaterialTextbox2 = new Bunifu.Framework.UI.BunifuMaterialTextbox();
-            this.bunifuMaterialTextbox1 = new Bunifu.Framework.UI.BunifuMaterialTextbox();
             this.button12 = new System.Windows.Forms.Button();
             this.btn_malzeme = new System.Windows.Forms.Button();
             this.button11 = new System.Windows.Forms.Button();
@@ -56,30 +49,32 @@
             this.bunifuCustomLabel1 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.label4 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
-            this.personelEkleToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.personelListeleToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.panel4 = new System.Windows.Forms.Panel();
-            this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
-            this.label13 = new System.Windows.Forms.Label();
-            this.label14 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
-            this.bunifuDatepicker3 = new Bunifu.Framework.UI.BunifuDatepicker();
             this.label3 = new System.Windows.Forms.Label();
-            this.bunifuDatepicker2 = new Bunifu.Framework.UI.BunifuDatepicker();
+            this.tabControl1 = new System.Windows.Forms.TabControl();
+            this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.txt_gider_kurum = new Bunifu.Framework.UI.BunifuMaterialTextbox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.txt_gider_miktar = new Bunifu.Framework.UI.BunifuMaterialTextbox();
+            this.btn_gider_ekle = new Bunifu.Framework.UI.BunifuThinButton2();
+            this.richTextBox_gider_not = new System.Windows.Forms.RichTextBox();
+            this.label15 = new System.Windows.Forms.Label();
+            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.dateTimeBaslangic = new System.Windows.Forms.DateTimePicker();
+            this.dateTimeBitis = new System.Windows.Forms.DateTimePicker();
+            this.baslangiclabel = new System.Windows.Forms.Label();
+            this.bitislabel = new System.Windows.Forms.Label();
+            this.label16 = new System.Windows.Forms.Label();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.btn_gider_ara = new Bunifu.Framework.UI.BunifuThinButton2();
             this.panel1.SuspendLayout();
-            this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
-            this.menuStrip1.SuspendLayout();
-            this.panel4.SuspendLayout();
-            this.tableLayoutPanel1.SuspendLayout();
+            this.tabControl1.SuspendLayout();
+            this.tabPage1.SuspendLayout();
+            this.tabPage2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -124,131 +119,6 @@
             this.btn_siparis.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.btn_siparis.UseVisualStyleBackColor = false;
             this.btn_siparis.Click += new System.EventHandler(this.btn_siparis_Click);
-            // 
-            // panel2
-            // 
-            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.panel2.Controls.Add(this.bunifuThinButton21);
-            this.panel2.Controls.Add(this.bunifuMaterialTextbox3);
-            this.panel2.Controls.Add(this.label1);
-            this.panel2.Controls.Add(this.bunifuDatepicker1);
-            this.panel2.Controls.Add(this.bunifuMaterialTextbox2);
-            this.panel2.Controls.Add(this.bunifuMaterialTextbox1);
-            this.panel2.Location = new System.Drawing.Point(168, 129);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(824, 682);
-            this.panel2.TabIndex = 3;
-            this.panel2.Visible = false;
-            this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
-            // 
-            // bunifuThinButton21
-            // 
-            this.bunifuThinButton21.ActiveBorderThickness = 1;
-            this.bunifuThinButton21.ActiveCornerRadius = 20;
-            this.bunifuThinButton21.ActiveFillColor = System.Drawing.Color.SeaGreen;
-            this.bunifuThinButton21.ActiveForecolor = System.Drawing.Color.White;
-            this.bunifuThinButton21.ActiveLineColor = System.Drawing.Color.SeaGreen;
-            this.bunifuThinButton21.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.bunifuThinButton21.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuThinButton21.BackgroundImage")));
-            this.bunifuThinButton21.ButtonText = "EKLE";
-            this.bunifuThinButton21.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.bunifuThinButton21.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuThinButton21.ForeColor = System.Drawing.Color.SeaGreen;
-            this.bunifuThinButton21.IdleBorderThickness = 1;
-            this.bunifuThinButton21.IdleCornerRadius = 20;
-            this.bunifuThinButton21.IdleFillColor = System.Drawing.Color.White;
-            this.bunifuThinButton21.IdleForecolor = System.Drawing.Color.SeaGreen;
-            this.bunifuThinButton21.IdleLineColor = System.Drawing.Color.SeaGreen;
-            this.bunifuThinButton21.Location = new System.Drawing.Point(355, 322);
-            this.bunifuThinButton21.Margin = new System.Windows.Forms.Padding(5);
-            this.bunifuThinButton21.Name = "bunifuThinButton21";
-            this.bunifuThinButton21.Size = new System.Drawing.Size(178, 58);
-            this.bunifuThinButton21.TabIndex = 10;
-            this.bunifuThinButton21.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // bunifuMaterialTextbox3
-            // 
-            this.bunifuMaterialTextbox3.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.bunifuMaterialTextbox3.Font = new System.Drawing.Font("Century Gothic", 9.75F);
-            this.bunifuMaterialTextbox3.ForeColor = System.Drawing.Color.Black;
-            this.bunifuMaterialTextbox3.HintForeColor = System.Drawing.Color.Empty;
-            this.bunifuMaterialTextbox3.HintText = "";
-            this.bunifuMaterialTextbox3.isPassword = false;
-            this.bunifuMaterialTextbox3.LineFocusedColor = System.Drawing.Color.Blue;
-            this.bunifuMaterialTextbox3.LineIdleColor = System.Drawing.Color.Gray;
-            this.bunifuMaterialTextbox3.LineMouseHoverColor = System.Drawing.Color.Blue;
-            this.bunifuMaterialTextbox3.LineThickness = 3;
-            this.bunifuMaterialTextbox3.Location = new System.Drawing.Point(355, 280);
-            this.bunifuMaterialTextbox3.Margin = new System.Windows.Forms.Padding(4);
-            this.bunifuMaterialTextbox3.Name = "bunifuMaterialTextbox3";
-            this.bunifuMaterialTextbox3.Size = new System.Drawing.Size(178, 33);
-            this.bunifuMaterialTextbox3.TabIndex = 9;
-            this.bunifuMaterialTextbox3.Text = "MİKTAR :";
-            this.bunifuMaterialTextbox3.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label1.Location = new System.Drawing.Point(362, 192);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(50, 17);
-            this.label1.TabIndex = 8;
-            this.label1.Text = "TARİH :";
-            // 
-            // bunifuDatepicker1
-            // 
-            this.bunifuDatepicker1.BackColor = System.Drawing.Color.SeaGreen;
-            this.bunifuDatepicker1.BorderRadius = 0;
-            this.bunifuDatepicker1.ForeColor = System.Drawing.Color.White;
-            this.bunifuDatepicker1.Format = System.Windows.Forms.DateTimePickerFormat.Long;
-            this.bunifuDatepicker1.FormatCustom = null;
-            this.bunifuDatepicker1.Location = new System.Drawing.Point(355, 217);
-            this.bunifuDatepicker1.Name = "bunifuDatepicker1";
-            this.bunifuDatepicker1.Size = new System.Drawing.Size(178, 36);
-            this.bunifuDatepicker1.TabIndex = 7;
-            this.bunifuDatepicker1.Value = new System.DateTime(2018, 4, 18, 3, 37, 57, 431);
-            // 
-            // bunifuMaterialTextbox2
-            // 
-            this.bunifuMaterialTextbox2.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.bunifuMaterialTextbox2.Font = new System.Drawing.Font("Century Gothic", 9.75F);
-            this.bunifuMaterialTextbox2.ForeColor = System.Drawing.Color.Black;
-            this.bunifuMaterialTextbox2.HintForeColor = System.Drawing.Color.Empty;
-            this.bunifuMaterialTextbox2.HintText = "";
-            this.bunifuMaterialTextbox2.isPassword = false;
-            this.bunifuMaterialTextbox2.LineFocusedColor = System.Drawing.Color.Blue;
-            this.bunifuMaterialTextbox2.LineIdleColor = System.Drawing.Color.Gray;
-            this.bunifuMaterialTextbox2.LineMouseHoverColor = System.Drawing.Color.Blue;
-            this.bunifuMaterialTextbox2.LineThickness = 3;
-            this.bunifuMaterialTextbox2.Location = new System.Drawing.Point(355, 140);
-            this.bunifuMaterialTextbox2.Margin = new System.Windows.Forms.Padding(4);
-            this.bunifuMaterialTextbox2.Name = "bunifuMaterialTextbox2";
-            this.bunifuMaterialTextbox2.Size = new System.Drawing.Size(178, 33);
-            this.bunifuMaterialTextbox2.TabIndex = 5;
-            this.bunifuMaterialTextbox2.Text = "GİDER TÜRÜ :";
-            this.bunifuMaterialTextbox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            // 
-            // bunifuMaterialTextbox1
-            // 
-            this.bunifuMaterialTextbox1.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.bunifuMaterialTextbox1.Font = new System.Drawing.Font("Century Gothic", 9.75F);
-            this.bunifuMaterialTextbox1.ForeColor = System.Drawing.Color.Black;
-            this.bunifuMaterialTextbox1.HintForeColor = System.Drawing.Color.Empty;
-            this.bunifuMaterialTextbox1.HintText = "";
-            this.bunifuMaterialTextbox1.isPassword = false;
-            this.bunifuMaterialTextbox1.LineFocusedColor = System.Drawing.Color.Blue;
-            this.bunifuMaterialTextbox1.LineIdleColor = System.Drawing.Color.Gray;
-            this.bunifuMaterialTextbox1.LineMouseHoverColor = System.Drawing.Color.Blue;
-            this.bunifuMaterialTextbox1.LineThickness = 3;
-            this.bunifuMaterialTextbox1.Location = new System.Drawing.Point(355, 81);
-            this.bunifuMaterialTextbox1.Margin = new System.Windows.Forms.Padding(4);
-            this.bunifuMaterialTextbox1.Name = "bunifuMaterialTextbox1";
-            this.bunifuMaterialTextbox1.Size = new System.Drawing.Size(178, 33);
-            this.bunifuMaterialTextbox1.TabIndex = 4;
-            this.bunifuMaterialTextbox1.Text = "KURUM :";
-            this.bunifuMaterialTextbox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             // 
             // button12
             // 
@@ -539,224 +409,263 @@
             this.label2.TabIndex = 0;
             this.label2.Text = "Hoşgeldiniz";
             // 
-            // menuStrip1
-            // 
-            this.menuStrip1.BackColor = System.Drawing.Color.DarkBlue;
-            this.menuStrip1.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.personelEkleToolStripMenuItem,
-            this.personelListeleToolStripMenuItem});
-            this.menuStrip1.Location = new System.Drawing.Point(166, 0);
-            this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(842, 32);
-            this.menuStrip1.TabIndex = 2;
-            this.menuStrip1.Text = "menuStrip1";
-            this.menuStrip1.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.menuStrip1_ItemClicked);
-            // 
-            // personelEkleToolStripMenuItem
-            // 
-            this.personelEkleToolStripMenuItem.BackColor = System.Drawing.Color.DarkBlue;
-            this.personelEkleToolStripMenuItem.ForeColor = System.Drawing.Color.Honeydew;
-            this.personelEkleToolStripMenuItem.Name = "personelEkleToolStripMenuItem";
-            this.personelEkleToolStripMenuItem.Size = new System.Drawing.Size(124, 28);
-            this.personelEkleToolStripMenuItem.Text = "Gider Ekle";
-            // 
-            // personelListeleToolStripMenuItem
-            // 
-            this.personelListeleToolStripMenuItem.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
-            this.personelListeleToolStripMenuItem.ForeColor = System.Drawing.Color.White;
-            this.personelListeleToolStripMenuItem.Name = "personelListeleToolStripMenuItem";
-            this.personelListeleToolStripMenuItem.Size = new System.Drawing.Size(102, 28);
-            this.personelListeleToolStripMenuItem.Text = "Giderler";
-            // 
-            // panel4
-            // 
-            this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.panel4.Controls.Add(this.tableLayoutPanel1);
-            this.panel4.Controls.Add(this.label6);
-            this.panel4.Controls.Add(this.label5);
-            this.panel4.Controls.Add(this.bunifuDatepicker3);
-            this.panel4.Controls.Add(this.label3);
-            this.panel4.Controls.Add(this.bunifuDatepicker2);
-            this.panel4.Location = new System.Drawing.Point(171, 35);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(824, 682);
-            this.panel4.TabIndex = 11;
-            // 
-            // tableLayoutPanel1
-            // 
-            this.tableLayoutPanel1.CellBorderStyle = System.Windows.Forms.TableLayoutPanelCellBorderStyle.Single;
-            this.tableLayoutPanel1.ColumnCount = 4;
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 21.86379F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 24.91039F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 22.75986F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 30.46595F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel1.Controls.Add(this.label7, 0, 0);
-            this.tableLayoutPanel1.Controls.Add(this.label8, 1, 0);
-            this.tableLayoutPanel1.Controls.Add(this.label9, 2, 0);
-            this.tableLayoutPanel1.Controls.Add(this.label10, 3, 0);
-            this.tableLayoutPanel1.Controls.Add(this.label11, 0, 1);
-            this.tableLayoutPanel1.Controls.Add(this.label12, 1, 1);
-            this.tableLayoutPanel1.Controls.Add(this.label13, 2, 1);
-            this.tableLayoutPanel1.Controls.Add(this.label14, 3, 1);
-            this.tableLayoutPanel1.Location = new System.Drawing.Point(19, 124);
-            this.tableLayoutPanel1.Name = "tableLayoutPanel1";
-            this.tableLayoutPanel1.RowCount = 4;
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 9.748427F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 28.65169F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 30.33708F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 29.77528F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(779, 179);
-            this.tableLayoutPanel1.TabIndex = 13;
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label7.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label7.Location = new System.Drawing.Point(4, 1);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(49, 17);
-            this.label7.TabIndex = 10;
-            this.label7.Text = "Kurum";
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label8.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label8.Location = new System.Drawing.Point(174, 1);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(72, 17);
-            this.label8.TabIndex = 11;
-            this.label8.Text = "Gider Türü";
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label9.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label9.Location = new System.Drawing.Point(367, 1);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(37, 17);
-            this.label9.TabIndex = 12;
-            this.label9.Text = "Tarih";
-            // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label10.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label10.Location = new System.Drawing.Point(544, 1);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(47, 17);
-            this.label10.TabIndex = 13;
-            this.label10.Text = "Miktar";
-            // 
-            // label11
-            // 
-            this.label11.AutoSize = true;
-            this.label11.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label11.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label11.Location = new System.Drawing.Point(4, 19);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(63, 17);
-            this.label11.TabIndex = 14;
-            this.label11.Text = "3t bilişim";
-            // 
-            // label12
-            // 
-            this.label12.AutoSize = true;
-            this.label12.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label12.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label12.Location = new System.Drawing.Point(174, 19);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(104, 17);
-            this.label12.TabIndex = 15;
-            this.label12.Text = "Yazılım Maliyeti";
-            // 
-            // label13
-            // 
-            this.label13.AutoSize = true;
-            this.label13.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label13.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label13.Location = new System.Drawing.Point(367, 19);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(72, 17);
-            this.label13.TabIndex = 16;
-            this.label13.Text = "20.04.2018";
-            // 
-            // label14
-            // 
-            this.label14.AutoSize = true;
-            this.label14.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label14.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label14.Location = new System.Drawing.Point(544, 19);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(44, 17);
-            this.label14.TabIndex = 17;
-            this.label14.Text = "500 TL";
-            // 
             // label6
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label6.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label6.Location = new System.Drawing.Point(16, 94);
+            this.label6.Location = new System.Drawing.Point(456, 77);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(230, 17);
+            this.label6.Size = new System.Drawing.Size(199, 17);
             this.label6.TabIndex = 12;
-            this.label6.Text = "X - Y Tarihleri Arasındaki Giderleriniz";
+            this.label6.Text = "Tarihleri Arasındaki Giderleriniz";
+            this.label6.Click += new System.EventHandler(this.label6_Click);
             // 
             // label5
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label5.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label5.Location = new System.Drawing.Point(342, 12);
+            this.label5.Location = new System.Drawing.Point(267, 13);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(67, 17);
             this.label5.TabIndex = 11;
             this.label5.Text = "Bitiş Tarihi";
-            // 
-            // bunifuDatepicker3
-            // 
-            this.bunifuDatepicker3.BackColor = System.Drawing.Color.SeaGreen;
-            this.bunifuDatepicker3.BorderRadius = 0;
-            this.bunifuDatepicker3.ForeColor = System.Drawing.Color.White;
-            this.bunifuDatepicker3.Format = System.Windows.Forms.DateTimePickerFormat.Long;
-            this.bunifuDatepicker3.FormatCustom = null;
-            this.bunifuDatepicker3.Location = new System.Drawing.Point(345, 32);
-            this.bunifuDatepicker3.Name = "bunifuDatepicker3";
-            this.bunifuDatepicker3.Size = new System.Drawing.Size(303, 36);
-            this.bunifuDatepicker3.TabIndex = 10;
-            this.bunifuDatepicker3.Value = new System.DateTime(2018, 4, 18, 3, 47, 31, 259);
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label3.Location = new System.Drawing.Point(16, 12);
+            this.label3.Location = new System.Drawing.Point(50, 13);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(105, 17);
             this.label3.TabIndex = 9;
             this.label3.Text = "Başlangıç Tarihi";
             // 
-            // bunifuDatepicker2
+            // tabControl1
             // 
-            this.bunifuDatepicker2.BackColor = System.Drawing.Color.SeaGreen;
-            this.bunifuDatepicker2.BorderRadius = 0;
-            this.bunifuDatepicker2.ForeColor = System.Drawing.Color.White;
-            this.bunifuDatepicker2.Format = System.Windows.Forms.DateTimePickerFormat.Long;
-            this.bunifuDatepicker2.FormatCustom = null;
-            this.bunifuDatepicker2.Location = new System.Drawing.Point(19, 32);
-            this.bunifuDatepicker2.Name = "bunifuDatepicker2";
-            this.bunifuDatepicker2.Size = new System.Drawing.Size(303, 36);
-            this.bunifuDatepicker2.TabIndex = 0;
-            this.bunifuDatepicker2.Value = new System.DateTime(2018, 4, 18, 3, 47, 31, 259);
+            this.tabControl1.Controls.Add(this.tabPage1);
+            this.tabControl1.Controls.Add(this.tabPage2);
+            this.tabControl1.Location = new System.Drawing.Point(171, 1);
+            this.tabControl1.Name = "tabControl1";
+            this.tabControl1.SelectedIndex = 0;
+            this.tabControl1.Size = new System.Drawing.Size(836, 728);
+            this.tabControl1.TabIndex = 2;
+            this.tabControl1.SelectedIndexChanged += new System.EventHandler(this.load_giderler);
+            // 
+            // tabPage1
+            // 
+            this.tabPage1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.tabPage1.Controls.Add(this.dateTimePicker1);
+            this.tabPage1.Controls.Add(this.label15);
+            this.tabPage1.Controls.Add(this.richTextBox_gider_not);
+            this.tabPage1.Controls.Add(this.btn_gider_ekle);
+            this.tabPage1.Controls.Add(this.txt_gider_miktar);
+            this.tabPage1.Controls.Add(this.txt_gider_kurum);
+            this.tabPage1.Controls.Add(this.label1);
+            this.tabPage1.Location = new System.Drawing.Point(4, 22);
+            this.tabPage1.Name = "tabPage1";
+            this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage1.Size = new System.Drawing.Size(828, 702);
+            this.tabPage1.TabIndex = 0;
+            this.tabPage1.Text = "Gider Ekle";
+            // 
+            // tabPage2
+            // 
+            this.tabPage2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.tabPage2.Controls.Add(this.btn_gider_ara);
+            this.tabPage2.Controls.Add(this.dataGridView1);
+            this.tabPage2.Controls.Add(this.label16);
+            this.tabPage2.Controls.Add(this.bitislabel);
+            this.tabPage2.Controls.Add(this.baslangiclabel);
+            this.tabPage2.Controls.Add(this.dateTimeBitis);
+            this.tabPage2.Controls.Add(this.dateTimeBaslangic);
+            this.tabPage2.Controls.Add(this.label6);
+            this.tabPage2.Controls.Add(this.label3);
+            this.tabPage2.Controls.Add(this.label5);
+            this.tabPage2.Location = new System.Drawing.Point(4, 22);
+            this.tabPage2.Name = "tabPage2";
+            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage2.Size = new System.Drawing.Size(828, 702);
+            this.tabPage2.TabIndex = 1;
+            this.tabPage2.Text = "Giderler";
+            // 
+            // txt_gider_kurum
+            // 
+            this.txt_gider_kurum.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txt_gider_kurum.Font = new System.Drawing.Font("Century Gothic", 9.75F);
+            this.txt_gider_kurum.ForeColor = System.Drawing.Color.Black;
+            this.txt_gider_kurum.HintForeColor = System.Drawing.Color.Empty;
+            this.txt_gider_kurum.HintText = "KURUM :";
+            this.txt_gider_kurum.isPassword = false;
+            this.txt_gider_kurum.LineFocusedColor = System.Drawing.Color.Blue;
+            this.txt_gider_kurum.LineIdleColor = System.Drawing.Color.Gray;
+            this.txt_gider_kurum.LineMouseHoverColor = System.Drawing.Color.Blue;
+            this.txt_gider_kurum.LineThickness = 3;
+            this.txt_gider_kurum.Location = new System.Drawing.Point(42, 77);
+            this.txt_gider_kurum.Margin = new System.Windows.Forms.Padding(4);
+            this.txt_gider_kurum.Name = "txt_gider_kurum";
+            this.txt_gider_kurum.Size = new System.Drawing.Size(547, 33);
+            this.txt_gider_kurum.TabIndex = 4;
+            this.txt_gider_kurum.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label1.Location = new System.Drawing.Point(50, 139);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(50, 17);
+            this.label1.TabIndex = 8;
+            this.label1.Text = "TARİH :";
+            // 
+            // txt_gider_miktar
+            // 
+            this.txt_gider_miktar.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txt_gider_miktar.Font = new System.Drawing.Font("Century Gothic", 9.75F);
+            this.txt_gider_miktar.ForeColor = System.Drawing.Color.Black;
+            this.txt_gider_miktar.HintForeColor = System.Drawing.Color.Empty;
+            this.txt_gider_miktar.HintText = "MİKTAR :";
+            this.txt_gider_miktar.isPassword = false;
+            this.txt_gider_miktar.LineFocusedColor = System.Drawing.Color.Blue;
+            this.txt_gider_miktar.LineIdleColor = System.Drawing.Color.Gray;
+            this.txt_gider_miktar.LineMouseHoverColor = System.Drawing.Color.Blue;
+            this.txt_gider_miktar.LineThickness = 3;
+            this.txt_gider_miktar.Location = new System.Drawing.Point(343, 152);
+            this.txt_gider_miktar.Margin = new System.Windows.Forms.Padding(4);
+            this.txt_gider_miktar.Name = "txt_gider_miktar";
+            this.txt_gider_miktar.Size = new System.Drawing.Size(246, 33);
+            this.txt_gider_miktar.TabIndex = 9;
+            this.txt_gider_miktar.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            // 
+            // btn_gider_ekle
+            // 
+            this.btn_gider_ekle.ActiveBorderThickness = 1;
+            this.btn_gider_ekle.ActiveCornerRadius = 20;
+            this.btn_gider_ekle.ActiveFillColor = System.Drawing.Color.SeaGreen;
+            this.btn_gider_ekle.ActiveForecolor = System.Drawing.Color.White;
+            this.btn_gider_ekle.ActiveLineColor = System.Drawing.Color.SeaGreen;
+            this.btn_gider_ekle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.btn_gider_ekle.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_gider_ekle.BackgroundImage")));
+            this.btn_gider_ekle.ButtonText = "EKLE";
+            this.btn_gider_ekle.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_gider_ekle.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_gider_ekle.ForeColor = System.Drawing.Color.SeaGreen;
+            this.btn_gider_ekle.IdleBorderThickness = 1;
+            this.btn_gider_ekle.IdleCornerRadius = 20;
+            this.btn_gider_ekle.IdleFillColor = System.Drawing.Color.White;
+            this.btn_gider_ekle.IdleForecolor = System.Drawing.Color.SeaGreen;
+            this.btn_gider_ekle.IdleLineColor = System.Drawing.Color.SeaGreen;
+            this.btn_gider_ekle.Location = new System.Drawing.Point(95, 376);
+            this.btn_gider_ekle.Margin = new System.Windows.Forms.Padding(5);
+            this.btn_gider_ekle.Name = "btn_gider_ekle";
+            this.btn_gider_ekle.Size = new System.Drawing.Size(178, 58);
+            this.btn_gider_ekle.TabIndex = 10;
+            this.btn_gider_ekle.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.btn_gider_ekle.Click += new System.EventHandler(this.btn_gider_ekle_Click);
+            // 
+            // richTextBox_gider_not
+            // 
+            this.richTextBox_gider_not.Location = new System.Drawing.Point(42, 242);
+            this.richTextBox_gider_not.Name = "richTextBox_gider_not";
+            this.richTextBox_gider_not.Size = new System.Drawing.Size(547, 96);
+            this.richTextBox_gider_not.TabIndex = 11;
+            this.richTextBox_gider_not.Text = "";
+            // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.Location = new System.Drawing.Point(39, 220);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(50, 13);
+            this.label15.TabIndex = 12;
+            this.label15.Text = "Notunuz:";
+            // 
+            // dateTimePicker1
+            // 
+            this.dateTimePicker1.CustomFormat = "";
+            this.dateTimePicker1.Location = new System.Drawing.Point(53, 165);
+            this.dateTimePicker1.Name = "dateTimePicker1";
+            this.dateTimePicker1.Size = new System.Drawing.Size(200, 20);
+            this.dateTimePicker1.TabIndex = 13;
+            // 
+            // dateTimeBaslangic
+            // 
+            this.dateTimeBaslangic.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.dateTimeBaslangic.Location = new System.Drawing.Point(53, 33);
+            this.dateTimeBaslangic.Name = "dateTimeBaslangic";
+            this.dateTimeBaslangic.Size = new System.Drawing.Size(200, 20);
+            this.dateTimeBaslangic.TabIndex = 14;
+            // 
+            // dateTimeBitis
+            // 
+            this.dateTimeBitis.Location = new System.Drawing.Point(270, 33);
+            this.dateTimeBitis.Name = "dateTimeBitis";
+            this.dateTimeBitis.Size = new System.Drawing.Size(200, 20);
+            this.dateTimeBitis.TabIndex = 15;
+            // 
+            // baslangiclabel
+            // 
+            this.baslangiclabel.AutoSize = true;
+            this.baslangiclabel.Location = new System.Drawing.Point(25, 79);
+            this.baslangiclabel.Name = "baslangiclabel";
+            this.baslangiclabel.Size = new System.Drawing.Size(19, 13);
+            this.baslangiclabel.TabIndex = 16;
+            this.baslangiclabel.Text = "??";
+            // 
+            // bitislabel
+            // 
+            this.bitislabel.AutoSize = true;
+            this.bitislabel.Location = new System.Drawing.Point(267, 79);
+            this.bitislabel.Name = "bitislabel";
+            this.bitislabel.Size = new System.Drawing.Size(25, 13);
+            this.bitislabel.TabIndex = 17;
+            this.bitislabel.Text = "???";
+            // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.Location = new System.Drawing.Point(145, 79);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(10, 13);
+            this.label16.TabIndex = 18;
+            this.label16.Text = "-";
+            // 
+            // dataGridView1
+            // 
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Location = new System.Drawing.Point(28, 113);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.Size = new System.Drawing.Size(793, 150);
+            this.dataGridView1.TabIndex = 19;
+            // 
+            // btn_gider_ara
+            // 
+            this.btn_gider_ara.ActiveBorderThickness = 1;
+            this.btn_gider_ara.ActiveCornerRadius = 20;
+            this.btn_gider_ara.ActiveFillColor = System.Drawing.Color.SeaGreen;
+            this.btn_gider_ara.ActiveForecolor = System.Drawing.Color.White;
+            this.btn_gider_ara.ActiveLineColor = System.Drawing.Color.SeaGreen;
+            this.btn_gider_ara.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.btn_gider_ara.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_gider_ara.BackgroundImage")));
+            this.btn_gider_ara.ButtonText = "Ara";
+            this.btn_gider_ara.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_gider_ara.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_gider_ara.ForeColor = System.Drawing.Color.SeaGreen;
+            this.btn_gider_ara.IdleBorderThickness = 1;
+            this.btn_gider_ara.IdleCornerRadius = 20;
+            this.btn_gider_ara.IdleFillColor = System.Drawing.Color.White;
+            this.btn_gider_ara.IdleForecolor = System.Drawing.Color.SeaGreen;
+            this.btn_gider_ara.IdleLineColor = System.Drawing.Color.SeaGreen;
+            this.btn_gider_ara.Location = new System.Drawing.Point(487, 23);
+            this.btn_gider_ara.Margin = new System.Windows.Forms.Padding(5);
+            this.btn_gider_ara.Name = "btn_gider_ara";
+            this.btn_gider_ara.Size = new System.Drawing.Size(112, 39);
+            this.btn_gider_ara.TabIndex = 20;
+            this.btn_gider_ara.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.btn_gider_ara.Click += new System.EventHandler(this.btn_gider_ara_Click);
             // 
             // gider
             // 
@@ -764,27 +673,22 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.ClientSize = new System.Drawing.Size(1008, 729);
-            this.Controls.Add(this.panel4);
-            this.Controls.Add(this.panel2);
-            this.Controls.Add(this.menuStrip1);
+            this.Controls.Add(this.tabControl1);
             this.Controls.Add(this.panel1);
             this.Name = "gider";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "gider";
             this.Load += new System.EventHandler(this.gider_Load);
             this.panel1.ResumeLayout(false);
-            this.panel2.ResumeLayout(false);
-            this.panel2.PerformLayout();
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
-            this.menuStrip1.ResumeLayout(false);
-            this.menuStrip1.PerformLayout();
-            this.panel4.ResumeLayout(false);
-            this.panel4.PerformLayout();
-            this.tableLayoutPanel1.ResumeLayout(false);
-            this.tableLayoutPanel1.PerformLayout();
+            this.tabControl1.ResumeLayout(false);
+            this.tabPage1.ResumeLayout(false);
+            this.tabPage1.PerformLayout();
+            this.tabPage2.ResumeLayout(false);
+            this.tabPage2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -803,26 +707,9 @@
         private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel1;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.MenuStrip menuStrip1;
-        private System.Windows.Forms.ToolStripMenuItem personelEkleToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem personelListeleToolStripMenuItem;
-        private System.Windows.Forms.Panel panel2;
-        private Bunifu.Framework.UI.BunifuThinButton2 bunifuThinButton21;
-        private Bunifu.Framework.UI.BunifuMaterialTextbox bunifuMaterialTextbox3;
-        private System.Windows.Forms.Label label1;
-        private Bunifu.Framework.UI.BunifuDatepicker bunifuDatepicker1;
-        private Bunifu.Framework.UI.BunifuMaterialTextbox bunifuMaterialTextbox2;
-        private Bunifu.Framework.UI.BunifuMaterialTextbox bunifuMaterialTextbox1;
-        private System.Windows.Forms.Panel panel4;
-        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label5;
-        private Bunifu.Framework.UI.BunifuDatepicker bunifuDatepicker3;
         private System.Windows.Forms.Label label3;
-        private Bunifu.Framework.UI.BunifuDatepicker bunifuDatepicker2;
         private System.Windows.Forms.Button btn_siparis;
         private System.Windows.Forms.Button btn_malzeme;
         private System.Windows.Forms.Button btn_tedarikci;
@@ -830,10 +717,22 @@
         private System.Windows.Forms.Button btn_musteri;
         private System.Windows.Forms.Button btn_personel;
         private System.Windows.Forms.Button btn_anasayfa;
-        private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.Label label14;
+        private System.Windows.Forms.TabControl tabControl1;
+        private System.Windows.Forms.TabPage tabPage1;
+        private System.Windows.Forms.Label label15;
+        private System.Windows.Forms.RichTextBox richTextBox_gider_not;
+        private Bunifu.Framework.UI.BunifuThinButton2 btn_gider_ekle;
+        private Bunifu.Framework.UI.BunifuMaterialTextbox txt_gider_miktar;
+        private Bunifu.Framework.UI.BunifuMaterialTextbox txt_gider_kurum;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.TabPage tabPage2;
+        private System.Windows.Forms.DateTimePicker dateTimePicker1;
+        private System.Windows.Forms.Label label16;
+        private System.Windows.Forms.Label bitislabel;
+        private System.Windows.Forms.Label baslangiclabel;
+        private System.Windows.Forms.DateTimePicker dateTimeBitis;
+        private System.Windows.Forms.DateTimePicker dateTimeBaslangic;
+        private System.Windows.Forms.DataGridView dataGridView1;
+        private Bunifu.Framework.UI.BunifuThinButton2 btn_gider_ara;
     }
 }

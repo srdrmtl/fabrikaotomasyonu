@@ -45,6 +45,7 @@
             this.panel4 = new System.Windows.Forms.Panel();
             this.bunifuCustomLabel1 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.label4 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
             this.bunifuMaterialTextbox2 = new Bunifu.Framework.UI.BunifuMaterialTextbox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
@@ -70,7 +71,6 @@
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.bunifuMaterialTextbox1 = new Bunifu.Framework.UI.BunifuMaterialTextbox();
             this.bunifuThinButton25 = new Bunifu.Framework.UI.BunifuThinButton2();
-            this.label2 = new System.Windows.Forms.Label();
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel7 = new System.Windows.Forms.Panel();
@@ -333,6 +333,17 @@
             this.label4.TabIndex = 1;
             this.label4.Text = "Sayın";
             // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Monotype Corsiva", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label2.ForeColor = System.Drawing.Color.Silver;
+            this.label2.Location = new System.Drawing.Point(30, 9);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(103, 22);
+            this.label2.TabIndex = 0;
+            this.label2.Text = "Hoşgeldiniz";
+            // 
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
@@ -346,7 +357,7 @@
             this.panel2.Controls.Add(this.bunifuThinButton25);
             this.panel2.Location = new System.Drawing.Point(3, 3);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(851, 714);
+            this.panel2.Size = new System.Drawing.Size(851, 686);
             this.panel2.TabIndex = 31;
             this.panel2.Visible = false;
             // 
@@ -608,17 +619,6 @@
             this.bunifuThinButton25.Size = new System.Drawing.Size(120, 44);
             this.bunifuThinButton25.TabIndex = 33;
             this.bunifuThinButton25.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Monotype Corsiva", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label2.ForeColor = System.Drawing.Color.Silver;
-            this.label2.Location = new System.Drawing.Point(30, 9);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(103, 22);
-            this.label2.TabIndex = 0;
-            this.label2.Text = "Hoşgeldiniz";
             // 
             // panel1
             // 

@@ -21,3 +21,72 @@ C:\Users\serdar\Desktop\fabrikaotomasyonu2\fabrikaotomasyonu2\obj\Debug\fabrikao
 C:\Users\serdar\Desktop\fabrikaotomasyonu2\fabrikaotomasyonu2\obj\Debug\fabrikaotomasyonu2.csproj.GenerateResource.Cache
 C:\Users\serdar\Desktop\fabrikaotomasyonu2\fabrikaotomasyonu2\obj\Debug\fabrikaotomasyonu2.exe
 C:\Users\serdar\Desktop\fabrikaotomasyonu2\fabrikaotomasyonu2\obj\Debug\fabrikaotomasyonu2.pdb
+C:\Users\atv\Desktop\fabrikaotomasyonu-master\fabrikaotomasyonu2\bin\Debug\fabrikaotomasyonu2.exe.config
+C:\Users\atv\Desktop\fabrikaotomasyonu-master\fabrikaotomasyonu2\obj\Debug\fabrikaotomasyonu2.exe
+C:\Users\atv\Desktop\fabrikaotomasyonu-master\fabrikaotomasyonu2\obj\Debug\fabrikaotomasyonu2.pdb
+C:\Users\atv\Desktop\fabrikaotomasyonu-master\fabrikaotomasyonu2\bin\Debug\fabrikaotomasyonu2.exe
+C:\Users\atv\Desktop\fabrikaotomasyonu-master\fabrikaotomasyonu2\bin\Debug\fabrikaotomasyonu2.pdb
+C:\Users\atv\Desktop\fabrikaotomasyonu-master\fabrikaotomasyonu2\obj\Debug\fabrikaotomasyonu2.csprojResolveAssemblyReference.cache
+C:\Users\atv\Desktop\fabrikaotomasyonu-master\fabrikaotomasyonu2\obj\Debug\fabrikaotomasyonu2.alim_satim.resources
+C:\Users\atv\Desktop\fabrikaotomasyonu-master\fabrikaotomasyonu2\obj\Debug\fabrikaotomasyonu2.depocu.resources
+C:\Users\atv\Desktop\fabrikaotomasyonu-master\fabrikaotomasyonu2\obj\Debug\fabrikaotomasyonu2.gelir_gider.resources
+C:\Users\atv\Desktop\fabrikaotomasyonu-master\fabrikaotomasyonu2\obj\Debug\fabrikaotomasyonu2.gider.resources
+C:\Users\atv\Desktop\fabrikaotomasyonu-master\fabrikaotomasyonu2\obj\Debug\fabrikaotomasyonu2.kimyager.resources
+C:\Users\atv\Desktop\fabrikaotomasyonu-master\fabrikaotomasyonu2\obj\Debug\fabrikaotomasyonu2.malzeme.resources
+C:\Users\atv\Desktop\fabrikaotomasyonu-master\fabrikaotomasyonu2\obj\Debug\fabrikaotomasyonu2.musteri.resources
+C:\Users\atv\Desktop\fabrikaotomasyonu-master\fabrikaotomasyonu2\obj\Debug\fabrikaotomasyonu2.personel.resources
+C:\Users\atv\Desktop\fabrikaotomasyonu-master\fabrikaotomasyonu2\obj\Debug\fabrikaotomasyonu2.siparis.resources
+C:\Users\atv\Desktop\fabrikaotomasyonu-master\fabrikaotomasyonu2\obj\Debug\fabrikaotomasyonu2.tedarikçi.resources
+C:\Users\atv\Desktop\fabrikaotomasyonu-master\fabrikaotomasyonu2\obj\Debug\fabrikaotomasyonu2.uretimmuduru.resources
+C:\Users\atv\Desktop\fabrikaotomasyonu-master\fabrikaotomasyonu2\obj\Debug\fabrikaotomasyonu2.urun.resources
+C:\Users\atv\Desktop\fabrikaotomasyonu-master\fabrikaotomasyonu2\obj\Debug\fabrikaotomasyonu2.yonetici.resources
+C:\Users\atv\Desktop\fabrikaotomasyonu-master\fabrikaotomasyonu2\obj\Debug\DarkDemo.yoneticimain.resources
+C:\Users\atv\Desktop\fabrikaotomasyonu-master\fabrikaotomasyonu2\obj\Debug\fabrikaotomasyonu2.login.resources
+C:\Users\atv\Desktop\fabrikaotomasyonu-master\fabrikaotomasyonu2\obj\Debug\fabrikaotomasyonu2.Properties.Resources.resources
+C:\Users\atv\Desktop\fabrikaotomasyonu-master\fabrikaotomasyonu2\obj\Debug\fabrikaotomasyonu2.csproj.GenerateResource.Cache
+C:\Users\atv\Desktop\fabrikaotomasyonu-master - Kopya\fabrikaotomasyonu2\bin\Debug\fabrikaotomasyonu2.exe.config
+C:\Users\atv\Desktop\fabrikaotomasyonu-master - Kopya\fabrikaotomasyonu2\obj\Debug\fabrikaotomasyonu2.exe
+C:\Users\atv\Desktop\fabrikaotomasyonu-master - Kopya\fabrikaotomasyonu2\obj\Debug\fabrikaotomasyonu2.pdb
+C:\Users\atv\Desktop\fabrikaotomasyonu-master - Kopya\fabrikaotomasyonu2\bin\Debug\fabrikaotomasyonu2.exe
+C:\Users\atv\Desktop\fabrikaotomasyonu-master - Kopya\fabrikaotomasyonu2\bin\Debug\fabrikaotomasyonu2.pdb
+C:\Users\atv\Desktop\fabrikaotomasyonu-master - Kopya\fabrikaotomasyonu2\obj\Debug\fabrikaotomasyonu2.csprojResolveAssemblyReference.cache
+C:\Users\atv\Desktop\fabrikaotomasyonu-master - Kopya\fabrikaotomasyonu2\obj\Debug\fabrikaotomasyonu2.alim_satim.resources
+C:\Users\atv\Desktop\fabrikaotomasyonu-master - Kopya\fabrikaotomasyonu2\obj\Debug\fabrikaotomasyonu2.depocu.resources
+C:\Users\atv\Desktop\fabrikaotomasyonu-master - Kopya\fabrikaotomasyonu2\obj\Debug\fabrikaotomasyonu2.gelir_gider.resources
+C:\Users\atv\Desktop\fabrikaotomasyonu-master - Kopya\fabrikaotomasyonu2\obj\Debug\fabrikaotomasyonu2.gider.resources
+C:\Users\atv\Desktop\fabrikaotomasyonu-master - Kopya\fabrikaotomasyonu2\obj\Debug\fabrikaotomasyonu2.kimyager.resources
+C:\Users\atv\Desktop\fabrikaotomasyonu-master - Kopya\fabrikaotomasyonu2\obj\Debug\fabrikaotomasyonu2.malzeme.resources
+C:\Users\atv\Desktop\fabrikaotomasyonu-master - Kopya\fabrikaotomasyonu2\obj\Debug\fabrikaotomasyonu2.musteri.resources
+C:\Users\atv\Desktop\fabrikaotomasyonu-master - Kopya\fabrikaotomasyonu2\obj\Debug\fabrikaotomasyonu2.personel.resources
+C:\Users\atv\Desktop\fabrikaotomasyonu-master - Kopya\fabrikaotomasyonu2\obj\Debug\fabrikaotomasyonu2.siparis.resources
+C:\Users\atv\Desktop\fabrikaotomasyonu-master - Kopya\fabrikaotomasyonu2\obj\Debug\fabrikaotomasyonu2.tedarikçi.resources
+C:\Users\atv\Desktop\fabrikaotomasyonu-master - Kopya\fabrikaotomasyonu2\obj\Debug\fabrikaotomasyonu2.uretimmuduru.resources
+C:\Users\atv\Desktop\fabrikaotomasyonu-master - Kopya\fabrikaotomasyonu2\obj\Debug\fabrikaotomasyonu2.urun.resources
+C:\Users\atv\Desktop\fabrikaotomasyonu-master - Kopya\fabrikaotomasyonu2\obj\Debug\fabrikaotomasyonu2.yonetici.resources
+C:\Users\atv\Desktop\fabrikaotomasyonu-master - Kopya\fabrikaotomasyonu2\obj\Debug\DarkDemo.yoneticimain.resources
+C:\Users\atv\Desktop\fabrikaotomasyonu-master - Kopya\fabrikaotomasyonu2\obj\Debug\fabrikaotomasyonu2.login.resources
+C:\Users\atv\Desktop\fabrikaotomasyonu-master - Kopya\fabrikaotomasyonu2\obj\Debug\fabrikaotomasyonu2.Properties.Resources.resources
+C:\Users\atv\Desktop\fabrikaotomasyonu-master - Kopya\fabrikaotomasyonu2\obj\Debug\fabrikaotomasyonu2.csproj.GenerateResource.Cache
+C:\Users\serdar\Desktop\fabrikaotomasyonu-master - Kopya\fabrikaotomasyonu2\bin\Debug\fabrikaotomasyonu2.exe.config
+C:\Users\serdar\Desktop\fabrikaotomasyonu-master - Kopya\fabrikaotomasyonu2\bin\Debug\fabrikaotomasyonu2.exe
+C:\Users\serdar\Desktop\fabrikaotomasyonu-master - Kopya\fabrikaotomasyonu2\bin\Debug\fabrikaotomasyonu2.pdb
+C:\Users\serdar\Desktop\fabrikaotomasyonu-master - Kopya\fabrikaotomasyonu2\obj\Debug\fabrikaotomasyonu2.csprojResolveAssemblyReference.cache
+C:\Users\serdar\Desktop\fabrikaotomasyonu-master - Kopya\fabrikaotomasyonu2\obj\Debug\fabrikaotomasyonu2.alim_satim.resources
+C:\Users\serdar\Desktop\fabrikaotomasyonu-master - Kopya\fabrikaotomasyonu2\obj\Debug\fabrikaotomasyonu2.depocu.resources
+C:\Users\serdar\Desktop\fabrikaotomasyonu-master - Kopya\fabrikaotomasyonu2\obj\Debug\fabrikaotomasyonu2.gelir_gider.resources
+C:\Users\serdar\Desktop\fabrikaotomasyonu-master - Kopya\fabrikaotomasyonu2\obj\Debug\fabrikaotomasyonu2.gider.resources
+C:\Users\serdar\Desktop\fabrikaotomasyonu-master - Kopya\fabrikaotomasyonu2\obj\Debug\fabrikaotomasyonu2.kimyager.resources
+C:\Users\serdar\Desktop\fabrikaotomasyonu-master - Kopya\fabrikaotomasyonu2\obj\Debug\fabrikaotomasyonu2.malzeme.resources
+C:\Users\serdar\Desktop\fabrikaotomasyonu-master - Kopya\fabrikaotomasyonu2\obj\Debug\fabrikaotomasyonu2.musteri.resources
+C:\Users\serdar\Desktop\fabrikaotomasyonu-master - Kopya\fabrikaotomasyonu2\obj\Debug\fabrikaotomasyonu2.personel.resources
+C:\Users\serdar\Desktop\fabrikaotomasyonu-master - Kopya\fabrikaotomasyonu2\obj\Debug\fabrikaotomasyonu2.siparis.resources
+C:\Users\serdar\Desktop\fabrikaotomasyonu-master - Kopya\fabrikaotomasyonu2\obj\Debug\fabrikaotomasyonu2.tedarikçi.resources
+C:\Users\serdar\Desktop\fabrikaotomasyonu-master - Kopya\fabrikaotomasyonu2\obj\Debug\fabrikaotomasyonu2.uretimmuduru.resources
+C:\Users\serdar\Desktop\fabrikaotomasyonu-master - Kopya\fabrikaotomasyonu2\obj\Debug\fabrikaotomasyonu2.urun.resources
+C:\Users\serdar\Desktop\fabrikaotomasyonu-master - Kopya\fabrikaotomasyonu2\obj\Debug\fabrikaotomasyonu2.yonetici.resources
+C:\Users\serdar\Desktop\fabrikaotomasyonu-master - Kopya\fabrikaotomasyonu2\obj\Debug\DarkDemo.yoneticimain.resources
+C:\Users\serdar\Desktop\fabrikaotomasyonu-master - Kopya\fabrikaotomasyonu2\obj\Debug\fabrikaotomasyonu2.login.resources
+C:\Users\serdar\Desktop\fabrikaotomasyonu-master - Kopya\fabrikaotomasyonu2\obj\Debug\fabrikaotomasyonu2.Properties.Resources.resources
+C:\Users\serdar\Desktop\fabrikaotomasyonu-master - Kopya\fabrikaotomasyonu2\obj\Debug\fabrikaotomasyonu2.csproj.GenerateResource.Cache
+C:\Users\serdar\Desktop\fabrikaotomasyonu-master - Kopya\fabrikaotomasyonu2\obj\Debug\fabrikaotomasyonu2.exe
+C:\Users\serdar\Desktop\fabrikaotomasyonu-master - Kopya\fabrikaotomasyonu2\obj\Debug\fabrikaotomasyonu2.pdb

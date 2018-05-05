@@ -66,5 +66,15 @@ namespace fabrikaotomasyonu2
             siparis siparispage = new siparis();
             siparispage.Show();
         }
+
+        private void personelEkleToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void tableLayoutPanel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }

@@ -57,6 +57,12 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.ekle = new System.Windows.Forms.TabPage();
+            this.txt_personel_ekle_soyad = new Bunifu.Framework.UI.BunifuMaterialTextbox();
+            this.txt_personel_ekle_ad = new Bunifu.Framework.UI.BunifuMaterialTextbox();
+            this.txt_ekle_cevap = new Bunifu.Framework.UI.BunifuMaterialTextbox();
+            this.txt_ekle_gizlisoru = new Bunifu.Framework.UI.BunifuMaterialTextbox();
+            this.label14 = new System.Windows.Forms.Label();
+            this.dogumtarihi = new System.Windows.Forms.DateTimePicker();
             this.kontrollabel = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.bunifuThinButton25 = new Bunifu.Framework.UI.BunifuThinButton2();
@@ -75,6 +81,7 @@
             this.txt_ekle_soyad = new Bunifu.Framework.UI.BunifuMaterialTextbox();
             this.txt_ekle_ad = new Bunifu.Framework.UI.BunifuMaterialTextbox();
             this.listele = new System.Windows.Forms.TabPage();
+            this.listBox1 = new System.Windows.Forms.ListBox();
             this.izinler = new System.Windows.Forms.TabPage();
             this.panel9 = new System.Windows.Forms.Panel();
             this.bunifuThinButton24 = new Bunifu.Framework.UI.BunifuThinButton2();
@@ -97,13 +104,7 @@
             this.label8 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
-            this.label14 = new System.Windows.Forms.Label();
-            this.dogumtarihi = new System.Windows.Forms.DateTimePicker();
-            this.txt_ekle_gizlisoru = new Bunifu.Framework.UI.BunifuMaterialTextbox();
-            this.txt_ekle_cevap = new Bunifu.Framework.UI.BunifuMaterialTextbox();
-            this.txt_personel_ekle_ad = new Bunifu.Framework.UI.BunifuMaterialTextbox();
-            this.txt_personel_ekle_soyad = new Bunifu.Framework.UI.BunifuMaterialTextbox();
-            this.listBox1 = new System.Windows.Forms.ListBox();
+            this.tabPage1 = new System.Windows.Forms.TabPage();
             ((System.ComponentModel.ISupportInitialize)(this.personelBindingSource)).BeginInit();
             this.panel7.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -562,6 +563,7 @@
             this.tabControl1.Controls.Add(this.listele);
             this.tabControl1.Controls.Add(this.izinler);
             this.tabControl1.Controls.Add(this.vardiya);
+            this.tabControl1.Controls.Add(this.tabPage1);
             this.tabControl1.Font = new System.Drawing.Font("Monotype Corsiva", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tabControl1.Location = new System.Drawing.Point(170, 1);
             this.tabControl1.Name = "tabControl1";
@@ -601,6 +603,100 @@
             this.ekle.Size = new System.Drawing.Size(832, 687);
             this.ekle.TabIndex = 0;
             this.ekle.Text = "Personel Ekle";
+            // 
+            // txt_personel_ekle_soyad
+            // 
+            this.txt_personel_ekle_soyad.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txt_personel_ekle_soyad.Font = new System.Drawing.Font("Century Gothic", 9.75F);
+            this.txt_personel_ekle_soyad.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.txt_personel_ekle_soyad.HintForeColor = System.Drawing.Color.Empty;
+            this.txt_personel_ekle_soyad.HintText = "Soyad:";
+            this.txt_personel_ekle_soyad.isPassword = false;
+            this.txt_personel_ekle_soyad.LineFocusedColor = System.Drawing.Color.Blue;
+            this.txt_personel_ekle_soyad.LineIdleColor = System.Drawing.Color.Gray;
+            this.txt_personel_ekle_soyad.LineMouseHoverColor = System.Drawing.Color.Blue;
+            this.txt_personel_ekle_soyad.LineThickness = 3;
+            this.txt_personel_ekle_soyad.Location = new System.Drawing.Point(446, 45);
+            this.txt_personel_ekle_soyad.Margin = new System.Windows.Forms.Padding(4);
+            this.txt_personel_ekle_soyad.Name = "txt_personel_ekle_soyad";
+            this.txt_personel_ekle_soyad.Size = new System.Drawing.Size(178, 33);
+            this.txt_personel_ekle_soyad.TabIndex = 36;
+            this.txt_personel_ekle_soyad.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            // 
+            // txt_personel_ekle_ad
+            // 
+            this.txt_personel_ekle_ad.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txt_personel_ekle_ad.Font = new System.Drawing.Font("Century Gothic", 9.75F);
+            this.txt_personel_ekle_ad.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.txt_personel_ekle_ad.HintForeColor = System.Drawing.Color.Empty;
+            this.txt_personel_ekle_ad.HintText = "Ad :";
+            this.txt_personel_ekle_ad.isPassword = false;
+            this.txt_personel_ekle_ad.LineFocusedColor = System.Drawing.Color.Blue;
+            this.txt_personel_ekle_ad.LineIdleColor = System.Drawing.Color.Gray;
+            this.txt_personel_ekle_ad.LineMouseHoverColor = System.Drawing.Color.Blue;
+            this.txt_personel_ekle_ad.LineThickness = 3;
+            this.txt_personel_ekle_ad.Location = new System.Drawing.Point(204, 45);
+            this.txt_personel_ekle_ad.Margin = new System.Windows.Forms.Padding(4);
+            this.txt_personel_ekle_ad.Name = "txt_personel_ekle_ad";
+            this.txt_personel_ekle_ad.Size = new System.Drawing.Size(178, 33);
+            this.txt_personel_ekle_ad.TabIndex = 35;
+            this.txt_personel_ekle_ad.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            // 
+            // txt_ekle_cevap
+            // 
+            this.txt_ekle_cevap.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txt_ekle_cevap.Font = new System.Drawing.Font("Century Gothic", 9.75F);
+            this.txt_ekle_cevap.ForeColor = System.Drawing.Color.Black;
+            this.txt_ekle_cevap.HintForeColor = System.Drawing.Color.Empty;
+            this.txt_ekle_cevap.HintText = "Cevap :";
+            this.txt_ekle_cevap.isPassword = false;
+            this.txt_ekle_cevap.LineFocusedColor = System.Drawing.Color.Blue;
+            this.txt_ekle_cevap.LineIdleColor = System.Drawing.Color.Gray;
+            this.txt_ekle_cevap.LineMouseHoverColor = System.Drawing.Color.Blue;
+            this.txt_ekle_cevap.LineThickness = 3;
+            this.txt_ekle_cevap.Location = new System.Drawing.Point(442, 478);
+            this.txt_ekle_cevap.Margin = new System.Windows.Forms.Padding(4);
+            this.txt_ekle_cevap.Name = "txt_ekle_cevap";
+            this.txt_ekle_cevap.Size = new System.Drawing.Size(178, 33);
+            this.txt_ekle_cevap.TabIndex = 34;
+            this.txt_ekle_cevap.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            // 
+            // txt_ekle_gizlisoru
+            // 
+            this.txt_ekle_gizlisoru.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txt_ekle_gizlisoru.Font = new System.Drawing.Font("Century Gothic", 9.75F);
+            this.txt_ekle_gizlisoru.ForeColor = System.Drawing.Color.Black;
+            this.txt_ekle_gizlisoru.HintForeColor = System.Drawing.Color.Empty;
+            this.txt_ekle_gizlisoru.HintText = "Gizli Soru :";
+            this.txt_ekle_gizlisoru.isPassword = false;
+            this.txt_ekle_gizlisoru.LineFocusedColor = System.Drawing.Color.Blue;
+            this.txt_ekle_gizlisoru.LineIdleColor = System.Drawing.Color.Gray;
+            this.txt_ekle_gizlisoru.LineMouseHoverColor = System.Drawing.Color.Blue;
+            this.txt_ekle_gizlisoru.LineThickness = 3;
+            this.txt_ekle_gizlisoru.Location = new System.Drawing.Point(211, 478);
+            this.txt_ekle_gizlisoru.Margin = new System.Windows.Forms.Padding(4);
+            this.txt_ekle_gizlisoru.Name = "txt_ekle_gizlisoru";
+            this.txt_ekle_gizlisoru.Size = new System.Drawing.Size(178, 33);
+            this.txt_ekle_gizlisoru.TabIndex = 33;
+            this.txt_ekle_gizlisoru.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label14.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label14.Location = new System.Drawing.Point(446, 179);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(86, 16);
+            this.label14.TabIndex = 32;
+            this.label14.Text = "Doğum  Tarihi :";
+            // 
+            // dogumtarihi
+            // 
+            this.dogumtarihi.Location = new System.Drawing.Point(446, 198);
+            this.dogumtarihi.Name = "dogumtarihi";
+            this.dogumtarihi.Size = new System.Drawing.Size(174, 20);
+            this.dogumtarihi.TabIndex = 31;
             // 
             // kontrollabel
             // 
@@ -884,6 +980,15 @@
             this.listele.Size = new System.Drawing.Size(832, 687);
             this.listele.TabIndex = 1;
             this.listele.Text = "Personel Listele ve Düzenle";
+            // 
+            // listBox1
+            // 
+            this.listBox1.FormattingEnabled = true;
+            this.listBox1.ItemHeight = 25;
+            this.listBox1.Location = new System.Drawing.Point(25, 67);
+            this.listBox1.Name = "listBox1";
+            this.listBox1.Size = new System.Drawing.Size(429, 129);
+            this.listBox1.TabIndex = 23;
             // 
             // izinler
             // 
@@ -1229,108 +1334,15 @@
             this.label6.TabIndex = 0;
             this.label6.Text = "Pazartesi";
             // 
-            // label14
+            // tabPage1
             // 
-            this.label14.AutoSize = true;
-            this.label14.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label14.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label14.Location = new System.Drawing.Point(446, 179);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(86, 16);
-            this.label14.TabIndex = 32;
-            this.label14.Text = "Doğum  Tarihi :";
-            // 
-            // dogumtarihi
-            // 
-            this.dogumtarihi.Location = new System.Drawing.Point(446, 198);
-            this.dogumtarihi.Name = "dogumtarihi";
-            this.dogumtarihi.Size = new System.Drawing.Size(174, 20);
-            this.dogumtarihi.TabIndex = 31;
-            // 
-            // txt_ekle_gizlisoru
-            // 
-            this.txt_ekle_gizlisoru.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.txt_ekle_gizlisoru.Font = new System.Drawing.Font("Century Gothic", 9.75F);
-            this.txt_ekle_gizlisoru.ForeColor = System.Drawing.Color.Black;
-            this.txt_ekle_gizlisoru.HintForeColor = System.Drawing.Color.Empty;
-            this.txt_ekle_gizlisoru.HintText = "Gizli Soru :";
-            this.txt_ekle_gizlisoru.isPassword = false;
-            this.txt_ekle_gizlisoru.LineFocusedColor = System.Drawing.Color.Blue;
-            this.txt_ekle_gizlisoru.LineIdleColor = System.Drawing.Color.Gray;
-            this.txt_ekle_gizlisoru.LineMouseHoverColor = System.Drawing.Color.Blue;
-            this.txt_ekle_gizlisoru.LineThickness = 3;
-            this.txt_ekle_gizlisoru.Location = new System.Drawing.Point(211, 478);
-            this.txt_ekle_gizlisoru.Margin = new System.Windows.Forms.Padding(4);
-            this.txt_ekle_gizlisoru.Name = "txt_ekle_gizlisoru";
-            this.txt_ekle_gizlisoru.Size = new System.Drawing.Size(178, 33);
-            this.txt_ekle_gizlisoru.TabIndex = 33;
-            this.txt_ekle_gizlisoru.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            // 
-            // txt_ekle_cevap
-            // 
-            this.txt_ekle_cevap.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.txt_ekle_cevap.Font = new System.Drawing.Font("Century Gothic", 9.75F);
-            this.txt_ekle_cevap.ForeColor = System.Drawing.Color.Black;
-            this.txt_ekle_cevap.HintForeColor = System.Drawing.Color.Empty;
-            this.txt_ekle_cevap.HintText = "Cevap :";
-            this.txt_ekle_cevap.isPassword = false;
-            this.txt_ekle_cevap.LineFocusedColor = System.Drawing.Color.Blue;
-            this.txt_ekle_cevap.LineIdleColor = System.Drawing.Color.Gray;
-            this.txt_ekle_cevap.LineMouseHoverColor = System.Drawing.Color.Blue;
-            this.txt_ekle_cevap.LineThickness = 3;
-            this.txt_ekle_cevap.Location = new System.Drawing.Point(442, 478);
-            this.txt_ekle_cevap.Margin = new System.Windows.Forms.Padding(4);
-            this.txt_ekle_cevap.Name = "txt_ekle_cevap";
-            this.txt_ekle_cevap.Size = new System.Drawing.Size(178, 33);
-            this.txt_ekle_cevap.TabIndex = 34;
-            this.txt_ekle_cevap.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            // 
-            // txt_personel_ekle_ad
-            // 
-            this.txt_personel_ekle_ad.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.txt_personel_ekle_ad.Font = new System.Drawing.Font("Century Gothic", 9.75F);
-            this.txt_personel_ekle_ad.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.txt_personel_ekle_ad.HintForeColor = System.Drawing.Color.Empty;
-            this.txt_personel_ekle_ad.HintText = "Ad :";
-            this.txt_personel_ekle_ad.isPassword = false;
-            this.txt_personel_ekle_ad.LineFocusedColor = System.Drawing.Color.Blue;
-            this.txt_personel_ekle_ad.LineIdleColor = System.Drawing.Color.Gray;
-            this.txt_personel_ekle_ad.LineMouseHoverColor = System.Drawing.Color.Blue;
-            this.txt_personel_ekle_ad.LineThickness = 3;
-            this.txt_personel_ekle_ad.Location = new System.Drawing.Point(204, 45);
-            this.txt_personel_ekle_ad.Margin = new System.Windows.Forms.Padding(4);
-            this.txt_personel_ekle_ad.Name = "txt_personel_ekle_ad";
-            this.txt_personel_ekle_ad.Size = new System.Drawing.Size(178, 33);
-            this.txt_personel_ekle_ad.TabIndex = 35;
-            this.txt_personel_ekle_ad.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            // 
-            // txt_personel_ekle_soyad
-            // 
-            this.txt_personel_ekle_soyad.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.txt_personel_ekle_soyad.Font = new System.Drawing.Font("Century Gothic", 9.75F);
-            this.txt_personel_ekle_soyad.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.txt_personel_ekle_soyad.HintForeColor = System.Drawing.Color.Empty;
-            this.txt_personel_ekle_soyad.HintText = "Soyad:";
-            this.txt_personel_ekle_soyad.isPassword = false;
-            this.txt_personel_ekle_soyad.LineFocusedColor = System.Drawing.Color.Blue;
-            this.txt_personel_ekle_soyad.LineIdleColor = System.Drawing.Color.Gray;
-            this.txt_personel_ekle_soyad.LineMouseHoverColor = System.Drawing.Color.Blue;
-            this.txt_personel_ekle_soyad.LineThickness = 3;
-            this.txt_personel_ekle_soyad.Location = new System.Drawing.Point(446, 45);
-            this.txt_personel_ekle_soyad.Margin = new System.Windows.Forms.Padding(4);
-            this.txt_personel_ekle_soyad.Name = "txt_personel_ekle_soyad";
-            this.txt_personel_ekle_soyad.Size = new System.Drawing.Size(178, 33);
-            this.txt_personel_ekle_soyad.TabIndex = 36;
-            this.txt_personel_ekle_soyad.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            // 
-            // listBox1
-            // 
-            this.listBox1.FormattingEnabled = true;
-            this.listBox1.ItemHeight = 25;
-            this.listBox1.Location = new System.Drawing.Point(25, 67);
-            this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(429, 129);
-            this.listBox1.TabIndex = 23;
+            this.tabPage1.Location = new System.Drawing.Point(4, 37);
+            this.tabPage1.Name = "tabPage1";
+            this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage1.Size = new System.Drawing.Size(832, 687);
+            this.tabPage1.TabIndex = 4;
+            this.tabPage1.Text = "tabPage1";
+            this.tabPage1.UseVisualStyleBackColor = true;
             // 
             // personel
             // 
@@ -1441,5 +1453,6 @@
         private Bunifu.Framework.UI.BunifuMaterialTextbox txt_personel_ekle_soyad;
         private Bunifu.Framework.UI.BunifuMaterialTextbox txt_personel_ekle_ad;
         private System.Windows.Forms.ListBox listBox1;
+        private System.Windows.Forms.TabPage tabPage1;
     }
 }

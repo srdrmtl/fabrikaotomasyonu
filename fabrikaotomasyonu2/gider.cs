@@ -81,5 +81,62 @@ namespace fabrikaotomasyonu2
             siparis siparispage = new siparis();
             siparispage.Show();
         }
+
+        private void btn_gider_ekle_Click(object sender, EventArgs e)
+        {
+
+            DateTime myDateTime = dateTimePicker1.Value;
+
+
+            gelir_giderBilgi bilgiler = new gelir_giderBilgi();
+            bilgiler.tip = "gider";
+            bilgiler.kurum = txt_gider_kurum.Text.ToString();
+            bilgiler.tarih = myDateTime.ToString("yyyy-MM-dd HH:mm:ss.fff");
+            bilgiler.fiyat = Convert.ToInt32(txt_gider_miktar.Text);
+            bilgiler.not = richTextBox_gider_not.Text.ToString();
+
+            UserProvider islem = new UserProvider();
+            if (islem.giderEkle(bilgiler))
+            {
+                MessageBox.Show("Başarıyla Eklendi.");
+
+            }
+            else
+            {
+                MessageBox.Show("Upss. Bir Hata Oluştu !");
+            }
+        }
+
+        private void load_giderler(object sender, EventArgs e)
+        {
+            UserProvider islem = new UserProvider();
+            DataTable dt = islem.giderGoruntule();
+
+            dataGridView1.DataSource = dt;
+        }
+
+        private void btn_gider_ara_Click(object sender, EventArgs e)
+        {
+
+
+            DateTime baslangic = dateTimeBaslangic.Value;
+            DateTime bitis = dateTimeBitis.Value;
+               
+                string x = baslangic.ToString("yyyy-MM-dd HH:mm:ss.fff");
+                string y = bitis.ToString("yyyy-MM-dd HH:mm:ss.fff");
+
+            UserProvider islem = new UserProvider();
+            DataTable dt = islem.giderAra(x,y);
+
+            dataGridView1.DataSource = dt;
+
+            baslangiclabel.Text = baslangic.ToString("yyyy-MM-dd");
+            bitislabel.Text=bitis.ToString("yyyy-MM-dd");
+        }
+
+        private void label6_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -18,25 +18,18 @@ namespace fabrikaotomasyonu2
             InitializeComponent();
         
         }
+
+        /*user oluşturulmuş ama bilgiler db den çekilmemiş*/
         User user = new User();
+
+
         UserProvider islem = new UserProvider();
         private void personel_Load(object sender, EventArgs e)
         {
 
-         
-
 
 
         }
-
-
-
-
-
-
-
-
-
 
         private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
         {

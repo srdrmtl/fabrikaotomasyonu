@@ -19,24 +19,14 @@ namespace fabrikaotomasyonu2
 
             isimsoyisim.Text = (UserProvider.ad + " " + UserProvider.soyad).ToUpper();
 
-
-
-
-
         }
 
-        private void btn_personel_Click(object sender, EventArgs e)
-        {
-            this.Hide();
-            personel personelpage = new personel();
-            personelpage.Show();
-        }
 
-        private void bunifuMaterialTextbox5_OnValueChanged(object sender, EventArgs e)
-        {
 
-        }
+        /*SAYFA GECİSLERİ BASLA******************************************/
 
+
+        /*ANASAYFA BUTONU*/
         private void btn_anasayfa_Click(object sender, EventArgs e)
         {
             this.Hide();
@@ -45,12 +35,15 @@ namespace fabrikaotomasyonu2
         }
 
 
-
-        private void panel_yonetici_anasayfa_Paint(object sender, PaintEventArgs e)
+        /*PERSONEL BUTONU*/
+        private void btn_personel_Click(object sender, EventArgs e)
         {
-
+            this.Hide();
+            personel personelpage = new personel();
+            personelpage.Show();
         }
 
+        /*GİDER BUTONU*/
         private void btn_gider_Click(object sender, EventArgs e)
         {
             this.Hide();
@@ -58,6 +51,7 @@ namespace fabrikaotomasyonu2
             giderpage.Show();
         }
 
+        /*MÜŞTERİ  BUTONU*/
         private void btn_musteri_Click(object sender, EventArgs e)
         {
             this.Hide();
@@ -65,6 +59,7 @@ namespace fabrikaotomasyonu2
             musteripage.Show();
         }
 
+        /*ÜRÜN BUTONU*/
         private void btn_urun_Click(object sender, EventArgs e)
         {
             this.Hide();
@@ -72,6 +67,7 @@ namespace fabrikaotomasyonu2
             urunpage.Show();
         }
 
+        /*TEDARİKCİ BUTONU*/
         private void btn_tedarikci_Click(object sender, EventArgs e)
         {
             this.Hide();
@@ -79,6 +75,7 @@ namespace fabrikaotomasyonu2
             tedarikcipage.Show();
         }
 
+        /*MALZEME BUTONU*/
         private void btn_malzeme_Click(object sender, EventArgs e)
         {
             this.Hide();
@@ -86,6 +83,7 @@ namespace fabrikaotomasyonu2
             malzemepage.Show();
         }
 
+        /*SİPARİS BUTONU*/
         private void btn_siparis_Click(object sender, EventArgs e)
         {
             this.Hide();
@@ -93,15 +91,11 @@ namespace fabrikaotomasyonu2
             siparispage.Show();
         }
 
-        private void label12_Click(object sender, EventArgs e)
-        {
+        /*SAYFA GECİSLERİ BİTİS******************************************/
 
-        }
 
-        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
 
-        }
+
 
         private void yonetici_Load(object sender, EventArgs e)
         {
@@ -198,6 +192,42 @@ namespace fabrikaotomasyonu2
             chart2.Series["sutungrafigi"].Points.AddXY("Gider", tpm_gider);
             chart2.Series["sutungrafigi"].Points[0].Color = Color.ForestGreen;
             chart2.Series["sutungrafigi"].Points[1].Color = Color.Crimson;
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+        private void bunifuMaterialTextbox5_OnValueChanged(object sender, EventArgs e)
+        {
+
+        }
+
+
+
+
+
+        private void panel_yonetici_anasayfa_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+
+        private void label12_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
         }
     }
 }
